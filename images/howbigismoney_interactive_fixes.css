@@ -1,0 +1,11 @@
+/*TITLE & META REMOVAL*/
+.c-matter__title, .c-matter__meta {display:none!important;}
+/*HOME ICON BUTTON FIX*/
+#header img.header-home-img {padding-top: 0; margin-top: 0;}
+@media (max-width: 500px) {img.header-home-img.hover_hand {padding-top: 15px!important;}}
+/*HEADER SIDE IMAGES FIX*/
+.interactive-temp #header .header-side-imgs {padding-top: 10px!important; padding-right: 20px!important;}
+.header-side-imgs img {display: inline-block;}
+/*SOCIAL SHARE SECTIION*/
+#share-buttons {position: relative; padding-top: 50px;}
+#share-buttons a img {display: inline-block;}

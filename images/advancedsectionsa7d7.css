@@ -1,0 +1,114 @@
+﻿/*LAYOUT*/
+.LargeSolid:after {
+  content: '';
+  border-bottom: solid 1px #333;
+  width: 60%;
+  display: block;
+  margin: 0 auto; }
+
+.JumboSolid {
+  border-bottom: solid 1px #333; }
+
+.LargeDashed:after {
+  content: '';
+  border-bottom: dashed 1px #333;
+  width: 60%;
+  display: block;
+  margin: 0 auto; }
+
+.JumboDashed {
+  border-bottom: dashed 1px #333; }
+
+#content section.CaretDown {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: inherit; }
+  #content section.CaretDown .container {
+    padding: 60px 0 120px 0; }
+  #content section.CaretDown .caretLeft,
+  #content section.CaretDown .caretRight {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    padding-bottom: 10%; }
+    @media (min-width: 768px) {
+      #content section.CaretDown .caretLeft,
+      #content section.CaretDown .caretRight {
+        padding-bottom: 7%; } }
+    @media (min-width: 992px) {
+      #content section.CaretDown .caretLeft,
+      #content section.CaretDown .caretRight {
+        padding-bottom: 3%; } }
+  #content section.CaretDown .caretLeft {
+    right: 50%;
+    -ms-transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -ms-transform: skewX(45deg);
+    -webkit-transform: skewX(45deg);
+    transform: skewX(45deg); }
+  #content section.CaretDown .caretRight {
+    left: 50%;
+    -ms-transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -ms-transform: skewX(-45deg);
+    -webkit-transform: skewX(-45deg);
+    transform: skewX(-45deg); }
+
+section.ScaleToFit:not(.parallax) {
+  background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  -ms-background-size: cover !important;
+  background-repeat: no-repeat !important;
+  -moz-background-repeat: no-repeat !important;
+  -o-background-repeat: no-repeat !important;
+  -ms-background-repeat: no-repeat !important;
+  background-position: center center !important;
+  -moz-background-position: center center !important;
+  -o-background-position: center center !important;
+  -ms-background-position: center center !important; }
+
+section.ScaleToFit.parallax {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position-x: center !important; }
+  @media (min-width: 992px) {
+    section.ScaleToFit.parallax {
+      background-attachment: fixed; } }
+
+section.ScaleToFit.parallax.noParallaxMobile {
+  background-position: center center !important;
+  -moz-background-position: center center !important;
+  -o-background-position: center center !important;
+  -ms-background-position: center center !important; }
+
+section.OriginalSize:not(.parallax) {
+  background-repeat: no-repeat !important;
+  -moz-background-repeat: no-repeat !important;
+  -o-background-repeat: no-repeat !important;
+  -ms-background-repeat: no-repeat !important;
+  background-position: center center !important;
+  -moz-background-position: center center !important;
+  -o-background-position: center center !important;
+  -ms-background-position: center center !important; }
+
+.OriginalSize {
+  background-repeat: no-repeat !important;
+  -moz-background-repeat: no-repeat !important;
+  -o-background-repeat: no-repeat !important;
+  -ms-background-repeat: no-repeat !important;
+  background-position-x: 50% !important; }
+
+.Tile {
+  background-repeat: repeat;
+  -moz-background-repeat: repeat;
+  -o-background-repeat: repeat;
+  -ms-background-repeat: repeat;
+  background-size: initial !important;
+  -moz-background-size: initial !important;
+  -o-background-size: initial !important;
+  -ms-background-size: initial !important; }
+

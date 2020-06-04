@@ -1,0 +1,176 @@
+/*
+body {
+    margin: 0 auto;
+    font-family: 'Rubik', sans-serif;
+    color: #4a4a4a;
+}
+*/
+
+body {
+    margin: 0 auto;
+    font-family: 'Rubik', sans-serif;
+    color: #4a4a4a;
+}
+
+.wir-container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+
+/* Disable form widget and make content full width */
+
+.body-container aside, .email-campaign aside, #content aside {
+    display: none;
+}
+
+article {
+    width: 100% !important;
+}
+.subpage article {
+    background:none!important;
+    padding-left:0!important;
+    padding-right:0!important;
+}
+h1 {
+    margin: .3rem 0!important;
+    font-size: 45px!important;
+/*    font-size: 53px!important;*/
+    font-weight: 300!important;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.tab-content {
+    width: 100%;
+}
+
+.content-area {
+    padding: 8% 5% 0 10%;
+}
+
+.content-area img {
+    width: 120px;
+    height: auto;
+    margin-left: -20px;
+}
+
+.content-area p {
+    padding: 5% 0;
+}
+
+.content-area ul {
+    padding: 10px 0 0 0;
+    padding-left: 0;
+    margin: 0;
+}
+
+.content-area ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.content-area ul li a {
+    color: #333;
+    font-size: 20px;
+}
+
+.content-area ul li a:hover {
+    color: #4A90E2;
+}
+
+.content-area ul li a img {
+    width: 20px;
+    height: 20px;
+    background-color: #dcdcdc;
+}
+
+.content-image img {
+    width: 100%;
+    padding:0;
+}
+
+.cont-button {
+    width: 250px;
+    /*    height: 60px;*/
+    text-align: center;
+    padding: 15px 30px;
+    border: 5px solid #59E0E8;
+}
+
+.cont-button:hover {
+    padding: 15px 30px;
+    border: 5px solid #59E0E8;
+    background: #59E0E8;
+}
+
+.cont-button a {
+    color: #4a4a4a;
+    padding: 15px 0;
+}
+
+.cont-button:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.wir-mobile-nav {
+    display: none;
+}
+
+/*@media (max-width: 430px) {*/
+@media (max-width: 768px) {
+    article {
+        margin-left:0!important;
+    }
+    .tab-content {
+        margin-bottom: 5%;
+    }
+    .row {
+        margin-right:0;
+    }
+    #wir-nav {
+        margin-top: 30px;
+    }
+    .nav-tabs>li {
+        float: left;
+        margin-bottom: -1px;
+        width: 50%!important;
+        height: auto!important;
+        margin: 0 auto;
+    }
+    #wir-nav {
+        display: none;
+    }
+    .wir-mobile-nav {
+        padding: 5% 0 0 10%;
+        display: block;
+        text-align: center;
+    }
+    .wir-mobile-nav p {
+        padding-left: 3%;
+        /*        border:3px solid #59E0E8;*/
+        /*        width:50%;*/
+        color: #59E0E8;
+        text-align: left;
+    }
+    .wir-mobile-nav a {
+        padding: 1% 2%;
+        color: #333;
+    }
+    .wir-mobile-nav-social p {
+        padding: 2% 0;
+        border: 3px solid #59E0E8;
+        width: 50%;
+        text-align: center;
+    }
+    .wir-mobile-nav-social a {
+        padding: 0 5%;
+    }
+}

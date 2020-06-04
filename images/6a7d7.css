@@ -1,0 +1,164 @@
+/*header*/
+.agentLogo a {  display: block; max-width: 300px; margin: 35px auto;}
+.header.masthead { margin: 20px 0; }
+
+/*navigation*/
+.navbar-wrapper nav .container {font-size:0!important;} /* Removes the extra bottom margin that appears when centering the nav */
+
+/*hero*/
+#hero {background-color: #206B8F; position:relative;}
+#hero h2,
+#hero p {color: white;}
+#hero p {margin-bottom:5px;}
+#hero img {width: 100%;}
+.hero-container .learnmore {float: left; margin-bottom: 20px;}
+#hero .backArrow, 
+#hero .forwardArrow {display:inline-block;}
+#hero .backArrow i, 
+#hero .forwardArrow i {margin: 6px 0 0 0;}
+#hero .forwardArrow {left: auto; right: 0; margin-right:15px;}
+#hero .backArrow {margin-left: 15px;  }
+
+/*content*/
+
+article ol 	{list-style-type:decimal;}
+article ul 	{list-style-type:disc;    
+
+    padding-left: 40px;
+}
+#additional ul{
+    text-indent:0;
+}
+
+#additional nav ul	  {margin-left:0;}
+#additional .viewAll  {clear:both; margin-left: 15px; padding-bottom: 20px;}
+#additional .matterContent          {display:none;}
+#additional .matterContent.selected {display:block;}
+#additional .matterContent section:nth-child(odd) {clear:left} /* Ensures columns wrap equally inside the tabs */
+.panel-title a {display:block;}
+
+#allVideoContent .videoContent.col-md-4:nth-child(3n+1) {clear:left} /* Ensures columns wrap equally inside the tabs, by clearing child elements 4, 7, 10, 13, etc. */
+aside section.col-sm-6:nth-child(odd) {clear:left} /* Ensures columns wrap equally inside the tabs */
+.contact p {margin-bottom:0;}
+
+.thumbnail {border:none;}
+.thumbnail img {width: 100%;}
+.thumbnail .caption {padding:9px 0;}
+
+.fancybox-inner h2 {margin-top:5px;}
+
+/*aside*/
+aside .rule     {background: none; border-bottom: 1px solid #808080; }
+aside .socialMedia {font-size:25px;}
+aside .contact p {margin-bottom:0;}
+
+
+/*footer*/
+footer              {clear:both; min-height:250px;}
+.np-contact-information p{margin-bottom:0;}
+.np-address_block {margin:15px 0;}
+
+
+/*page unique*/
+#formCareer .upload         {position:relative; height:63px; width:238px;}
+#formCareer .fakefile, 
+#formCareer .realfile       {position:absolute; top:15px; left:0;}
+#formCareer .fakefile       {width:165px; z-index:1;}
+#formCareer .fakefile input {width:158px; height:21px; border:none;}
+#formCareer .realfile       {opacity:0; filter:alpha(opacity:0); width:238px; z-index:2;}
+
+#teamContent .principal {margin-top: 15px;}
+
+#agentPhoto img {width:200px; height:200px;}
+
+#blogContent .post img {float:right;}
+
+#postContent .dateTime  {font-style:italic; font-size:13px;}
+
+#form2_content .cancel {float:right;}
+
+/*#allTypeContent section {float:left;}
+#allTypeContent .left   {clear:both;}*/
+
+#articleContent .video      {width:190px; height:145px;}
+#articleContent .fastFact,
+#articleContent .tip        {margin:0 0 30px 30px;}
+
+/*#matterContent img            {width:300px; height:229px; float:left;}*/
+#matterContent .featuredFlag  {font-size:20px; font-family: 'Lato', sans-serif;}
+
+
+#EventRegistrationSignupForm #KeepMePosted {float:left; margin-right: 4px;}
+#EventRegistrationSignupForm label[for="KeepMePosted"] {display:block; font-size:14px;}
+#EventRegistrationSignupForm input,
+#EventRegistrationSignupForm textarea {width:300px;}
+#EventRegistrationSignupForm input[type="checkbox"] {width:auto!important;}
+.page-contact .contact-block {margin-top:20px;}
+.page-contact .contact-block h2 {margin-top:0;}
+.page-contact .contact-block p {margin-bottom:0;font-size:14px;}
+.page-contact .contact-block .contact {margin-bottom: 10px;}
+.page-contact .contact-block .address {margin-bottom: 10px;}
+.page-contact .contact-block .contact span {font-weight:bold; font-size:14px;}
+#eventContent .description h2 { margin: 10px 0; }
+#eventContent .map     {display:block; margin-top:10px;}
+.event_website {display:block; margin-top:10px;}
+
+
+.map-canvas {width: 100%; height: 320px;}
+.scrolloff {pointer-events: none;}
+.single-event {margin-bottom:20px;}
+
+
+.sectionButtonHover { border-style: solid; }
+
+
+/* This is for the video-scroll-play script */
+.js-video-autoplay {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.fa-phone__team--moonlight {
+    margin-right: 3px;
+}
+
+/*! Gray v1.6.0 (https://github.com/karlhorky/gray) | MIT */
+.grayscale {
+    /* Firefox 10-34 */
+    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='saturate' values='0'/></filter></svg>#grayscale");
+    /*
+    Chrome 19+,
+    Safari 6+,
+    Safari 6+ iOS,
+    Opera 15+
+    */
+    -webkit-filter: grayscale(1);
+    /* Firefox 35+ */
+    filter: grayscale(1);
+    /* IE 6-9 */
+    filter: gray;
+}
+
+.c-checkbox {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.c-checkbox + .c-checkbox {
+    margin-top: 12px;
+}
+
+.c-checkbox__label {
+    margin-bottom: 0;
+}
+
+.c-checkbox__input {
+    margin-right: 12px;
+}
+
+.c-checkbox__input > input[type=checkbox] {
+    width: auto;
+    margin: 0;
+    margin-bottom: 2px;
+}

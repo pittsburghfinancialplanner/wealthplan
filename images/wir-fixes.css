@@ -1,0 +1,236 @@
+/* GENERAL */
+
+body {
+    font-family: 'Rubik', sans-serif !important;
+    color: #4a4a4a !important;
+}
+
+h1,
+.subpage article h1 {
+/*    padding: 2% 0 2% 5% !important;*/
+    padding: 2% 0 !important;
+}
+
+.body-container .container {
+    width: 100% !important;
+}
+
+/*
+.container {
+    width: 100%!important;
+}
+*/
+
+.wir-mobile {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .wir-desktop {
+        display: none;
+    }
+    .wir-mobile {
+        display: block;
+    }
+    #wir-nav {
+        display: none;
+    }
+}
+
+/* NAV FIXES */
+
+.navbar,
+nav#main .container ul li:hover > a {
+    background: inherit !important;
+    background-color: inherit !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: inherit !important;
+}
+
+/*
+nav#main {
+    background: inherit !important;
+}
+*/
+
+.navbar-fixed-bottom,
+.navbar-fixed-top {
+    position: relative !important;
+}
+
+/*
+@media (max-width: 767px) {
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #dcdcdc!important;
+}
+}
+*/
+
+/* WIR CONTAINER */
+
+.wir-container {
+    height: auto;
+    /*    height: 100vh;*/
+}
+
+.tab-content {
+    height: auto;
+}
+
+nav a {
+    color: inherit !important;
+}
+
+/* BOTTOM NAVIGATION */
+
+/*
+#wir-nav {
+    position: fixed;
+    bottom: 0;
+    z-index: 2000;
+    left: 0;
+}
+
+#wir-nav li {
+    background-size: contain !important;
+    background-position: center center;
+    cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+    #wir-nav {
+        position: relative;
+    }
+}
+
+@media (max-width: 1200px) {
+    #wir-nav li, #wir-nav li:hover {
+        height: 150px!important;
+    }
+}
+
+@media (max-width: 991px) {
+    .wir-container {
+        height: auto;
+        margin-bottom: 100px;
+    }
+    #wir-nav {
+        position: relative !important;
+    }
+    #wir-nav li {
+        height: 150px!important;
+    }
+}
+
+@media (max-width: 768px) {
+    .wir-container {
+        height: auto;
+    }
+    .wir-mobile-nav {
+        display: none !important;
+    }
+}
+*/
+
+/* SOCIAL SHARE ICONS */
+
+.wir-share-icons li {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    padding: 0 20px !important;
+}
+
+.wir-share-icons li a {
+    position: absolute;
+    left: 20px;
+}
+
+.wir-share-icons li a img {
+    background: none !important;
+    cursor: pointer;
+}
+
+.wir-share-icons li a img:hover {
+    opacity: 0.7;
+}
+
+/* CONTINUE BUTTON */
+
+.cont-button {
+    display: none !important;
+}
+
+/* content area */
+
+@media (max-width:991px) {
+    .content-area {
+        padding-bottom: 10%;
+    }
+}
+
+.content-area ul li a img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+/* BACKGROUND COLOR FIX ON CERTAIN THEMES */
+
+#content .container {
+    background: #fff;
+}
+
+/* MOBILE NAV FIX */
+
+.icon-bar {
+    left: 20% !important;
+}
+
+/*MADERA FIX*/
+
+@media (min-width: 992px) {
+    header {
+        top: 0 !important;
+    }
+}
+
+/* CHELAN FIX */
+
+.chelan nav#main {
+    background: none !important;
+}
+
+/* PALOMAR FIX */
+
+.palomar header {
+    background-color: #333;
+}
+
+.palomar nav#main {
+    border: none;
+}
+
+/* CUSTOMERS W/OUT A WEBSITE */
+
+.c-site-core {
+    max-width: 100%;
+    width: 100%;
+}
+
+.c-site-core #articleContent {
+    padding: 0;
+}
+
+/*
+.c-site-core,
+.c-site-core .container {
+    max-width: 100%;
+    width: 100%;
+}
+*/
+/*ARTICLE REVAMP FIX - 05/20/2020*/
+@media (min-width: 992px) {.c-matter--article .c-matter__body {width: 100%;}}
+/*TITLE & META REMOVAL*/
+.c-matter__title, .c-matter__meta {display:none;}

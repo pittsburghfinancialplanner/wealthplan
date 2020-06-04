@@ -1,0 +1,12 @@
+/*FULL WIDTH*/
+.container {
+    max-width: 100%;
+    width: 100%;
+}
+#fullpage {
+    background-image: url(https://fmg-websites-custom.s3.amazonaws.com/Infographics/guarding_against_online_fraud/data-thieves-outer-space-infographic-1000-bg-compressed.png);
+}
+
+.infographic {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

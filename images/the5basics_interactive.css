@@ -1,0 +1,1508 @@
+/* Filename: fmg-the5basicslate.css
+ * Author: Stephanie Villalobos ( April 2018)
+ * Description: This stylesheet is to be changed according to the style needed for the interactive.
+ *              Background colors for each section can be found/set on the js file (ex) fmg-the5basicslate.js
+ * Last edited: April 23, 2018
+ *
+ * NOTE: for global styles across all the interactives, go to fmg-interactive_global.css
+ * https://fmg-websites-custom.s3.amazonaws.com/stephanievillalobos/interactiveTemplate/fmg-interactive_global.css
+ */
+
+ .the5basics .section { max-width: 100vw; background-repeat: no-repeat; background-size: cover;background-position: center;  }
+ /* Theres this error for iphones where the footer is in the middle of the content, this fixes */
+ section#section_0 { height: 100% !important; }
+
+ /* Get rid of FMG Content title */
+ section.email-campaign .container h1:first-of-type {
+    display: none;
+}
+
+
+/* ======================================= */
+/* ============== Menu START ============= */
+/* ======================================= */
+
+
+.section_FullWidth .the5basics img {
+    max-width: 200px;
+}
+
+.section_FullWidth .the5basics .scroll_down_btn {
+    max-width: 100px;
+}
+
+
+.nav-items > * {
+   top: 30% !important;
+}
+
+.menu_nav {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  padding: 0;
+  border-radius: 50%;
+  list-style: none;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.nav-items > * {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin: -2.5rem;
+}
+.nav-items > *:nth-of-type(1) {
+  -webkit-transform: rotate(-16deg) translate(35rem) rotate(16deg);
+          transform: rotate(-16deg) translate(35rem) rotate(16deg);
+}
+.nav-items > *:nth-of-type(2) {
+  -webkit-transform: rotate(28deg) translate(28rem) rotate(-28deg);
+          transform: rotate(28deg) translate(28rem) rotate(-28deg);
+}
+.nav-items > *:nth-of-type(3) {
+  -webkit-transform: rotate(90deg) translate(21rem) rotate(-90deg);
+          transform: rotate(90deg) translate(21rem) rotate(-90deg);
+}
+.nav-items > *:nth-of-type(4) {
+  -webkit-transform: rotate(152deg) translate(28rem) rotate(-152deg);
+          transform: rotate(152deg) translate(28rem) rotate(-152deg);
+}
+.nav-items > *:nth-of-type(5) {
+  -webkit-transform: rotate(196deg) translate(35rem) rotate(-196deg);
+          transform: rotate(196deg) translate(35rem) rotate(-196deg);
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 6rem;
+  border-radius: 50%;
+  font-size: 3rem;
+}
+
+.nav-link {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  transition: all 0.1s ease-in-out;
+}
+.nav-link img { /* added 5/3/19 - some custom css for advisors has max-width 100%, this prevents small icons that code makes  */
+    max-width: none !important;
+}
+.nav-link:hover {
+  -webkit-transform: scale(1.20);
+          transform: scale(1.20);
+}
+.nav-link:hover img {
+  -webkit-filter: drop-shadow(0px 0px 33px rgba(255,255,255,1));
+  filter: drop-shadow(0px 0px 33px rgba(255,255,255,1));
+}
+/* ======================================= */
+/* =============== Menu END ============== */
+/* ======================================= */
+
+ /* ========================================== */
+ /* ======== Font Interactive stylings ======= */
+ /* ========================================== */
+
+ .the5basics h1,
+ .the5basics h2,
+ .the5basics h3,
+ .the5basics h4,
+ .the5basics h5,
+ .the5basics h6,
+ .the5basics p,
+ .the5basics a,
+ .the5basics ul,
+ .the5basics li { color: #ffffff !important; text-align: left; font-weight: 200 !important; }
+
+ .the5basics h1,
+ .the5basics h2,
+ .the5basics h3,
+ .the5basics h4,
+ .the5basics h5,
+ .the5basics h6 { font-family: 'Roboto', serif !important; }
+
+ .the5basics p,
+ .the5basics a,
+ .the5basics ul,
+ .the5basics li { font-family: 'Roboto', sans-serif !important; }
+
+
+  /* line height ratio = 1.2. Except leaving p = 1.5 */
+  .the5basics h1 { font-size: 75px !important; line-height: 75px !important; padding-bottom: 0px; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 900 !important; }
+  .the5basics h2 { font-size: 28px !important; line-height: 36px !important; padding-top: 0px; }
+  .the5basics h3 { font-size: 26px !important; line-height: 34px !important; padding-top: 10px; font-weight: 700 !important;}
+  .the5basics p  { font-size: 20px !important; line-height: 30px !important; font-weight: 200 !important;}
+
+  .the5basics .sect_title p, .the5basics .author-title { font-size: 20px !important; line-height: 30px !important; }
+  .interactive-temp #section4 h2 { font-size: 35px !important; line-height: 42px !important; }
+  .the5basics hr { border-color: #203044 !important; border-width: 7px; max-width: 50%;	margin-bottom: 35px; margin-top: 35px; }
+
+  @media (max-width: 1200px) {
+  	.the5basics h1 { font-size: 40px !important; line-height: 48px !important; }
+  	.the5basics h2 { font-size: 36px !important; line-height: 43px !important;   }
+  	.the5basics p { font-size: 24px !important; line-height: 36px !important; }
+  	.the5basics .sect_title p, .the5basics .author-title { font-size: 18px !important; line-height: 27px !important; }
+  	.interactive-temp #section4 h2 { font-size: 30px !important; line-height: 36px !important; }
+  }
+ @media (max-width: 991px) {
+ 	.the5basics h2 {
+ 		font-size: 32px !important;
+ 		line-height: 38px !important;
+ 	}
+ 	.the5basics p {
+ 		font-size: 22px !important;
+ 		line-height: 33px !important;
+ 	}
+ }
+ @media (max-width: 414px) {
+  .the5basics h1 { font-size: 40px !important; line-height: 67px !important; }
+  .the5basics h2 { font-size: 36px !important; line-height: 43px !important;   }
+  .the5basics p { font-size: 24px !important; line-height: 36px !important; }
+  .the5basics .sect_title p, .the5basics .author-title { font-size: 18px !important; line-height: 27px !important; }
+  .interactive-temp #section4 h2 { font-size: 30px !important; line-height: 36px !important; }
+
+ 	.interactive-temp #section3 h2 {
+ 		font-size: 24px !important;
+ 		line-height: 29px !important;
+ 	}
+ 	.the5basics #section4 h2 {
+ 		font-size: 27px !important;
+ 		line-height: 33px !important;
+ 	}
+ 	.the5basics h2 {
+ 		font-size: 30px !important;
+ 		line-height: 36px !important;
+ 	}
+ }
+
+
+ /* ========================================== */
+ /* ====== General Interactive stylings ====== */
+ /* ========================================== */
+ /* getting rid of werid height difference when in widnows */
+ .fp-scrollable { height: 100vh !important; }
+
+ /* Norman Schwarzkopf was dissappearing on certain browsers randomly? Found that fp-scroller had a height of zero only in his section? */
+ .fp-scroller { height: 100vh !important; }
+
+ /* making sure empty col-6 section doesnt take up space when reduced to 767px */
+ .placeholder-space { height: 0 !important; }
+
+ @media (max-width: 991px) {
+   .the5basics .col-md-6.placeholder-space {display: none;}
+
+ 	}
+
+ /* Space between quote and person that said that quotes name */
+ .the5basics h2 {
+ 	/*padding-bottom: 50px;*/
+ 	margin-bottom: 0;
+ 	padding-bottom: 10px;
+ }
+ /* quote white box */
+ .the5basics .white-box {
+ 	/*background-color: rgba(255,255,255,0.75);
+ 	padding: 75px;
+ 	padding-bottom: 50px;
+ 	box-shadow: 0px 40px 40px rgba(1, 25, 41,.7);*/
+ }
+ /* background that lies ontop of first bg */
+ .the5basics .secondary-bg {
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 110vh;
+ }
+ /* background that lies ontop of first bg */
+ .the5basics .background-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+ }
+
+ /* background that lies ontop of first bg */
+ .the5basics .back-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+ }
+ /* image bg closest to the user (foreground) */
+ .the5basics .front-img {
+ 	background-repeat: no-repeat;
+ 	min-height: 100vh;
+  height: 100%;
+ 	position: absolute;
+ 	width: 100vw;
+ }
+ /* Quotemarks over white box */
+ .the5basics img.quote-right {
+ 	position: absolute;
+ 	right: 60px;
+ 	margin-top: -35px !important;
+ }
+ .the5basics img.quote-left {
+ 	position: absolute;
+ 	left: 43px;
+ 	margin-top: -15px;
+ }
+
+ /* Navigation bar through sections */
+
+
+ #fp-nav {
+ 	bottom: -285px !important;
+ 	top: auto;
+ 	right: 115px;
+ 	transform: rotate(270deg);
+ 	background-color: rgba(0,0,0,0.5);
+ 	width: 75px;
+ 	height: 700px;
+  border-radius: 25px;
+ }
+ /* Side navbar */
+ #fp-nav ul li .fp-tooltip.right {
+ 	right: 30px;
+ 	top: 10px;
+ 	text-shadow: none;
+ }
+ #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span {
+ 	margin: -3px 0 0 -2px !important;
+ 	border: 5px solid #fff;
+ }
+ #fp-nav ul li, .fp-slidesNav ul li {
+ 	height: 30px !important;
+ 	width: 30px !important;
+ 	margin: 29px 18px !important;
+ }
+ #fp-nav ul li a span, .fp-slidesNav ul li a span {
+ 	height: 30px !important;
+ 	width: 30px !important;
+ 	border-radius: 100% !important;
+ }
+ #fp-nav ul li a span {
+ 	background: transparent !important;
+ 	border: none;
+ 	background-color: #888 !important;
+ 	box-shadow: none;
+ }
+ #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
+ 	height: 30px !important;
+ 	width: 30px !important;
+ 	margin: 0 !important;
+ }
+ #fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span {
+ 	margin: 0 !important;
+ }
+ #fp-nav ul, .fp-slidesNav ul { /* dot positions within box */
+ 	margin: 0 -8px;
+ 	padding: 0;
+ }
+ .fp-tooltip.bottom { /* hover text */
+ 	transform: rotate(-270deg);
+ 	left: -16px;
+ 	top: 13px !important;
+ 	background-color: #fff;
+ 	padding: 5px 0px;
+ 	width: 200px !important;
+ 	font-family: 'Roboto', serif !important;
+ 	font-size: 16px !important;
+ 	color: #203044 !important;
+ 	text-align: center;
+ 	overflow: visible !important;
+  border-radius: 25px;
+ }
+ .fp-tooltip.bottom:after { /* Little carrot under the hover text box */
+ 	content: "";
+ 	width: 0;
+ 	height: 0;
+ 	border-left: 10px solid transparent;
+ 	border-right: 10px solid transparent;
+ 	border-top: 18px solid #fff;
+ 	position: absolute;
+ 	margin: 0 auto;
+ 	left: 0;
+ 	right: 0;
+ 	margin-top: 25px;
+ }
+ #fp-nav ul li:not(:last-child)::before, .fp-slidesNav ul li:not(:last-child)::before{ /* line connecting dots */
+ 	content: '';
+ 	position: absolute;
+ 	top: 55px;
+ 	left: 12px;
+ 	width: 35px;
+ 	height: 5px;
+ 	background: #888;
+ 	z-index: -1;
+ 	transform: rotate(270deg);
+ }
+
+
+ @media (max-width: 1900px) {
+ }
+ @media (max-width: 1600px) {
+ }
+ @media (max-width: 1200px) {
+ }
+ @media (max-width: 991px) {
+   #fp-nav {display:none;}
+ }
+ @media (max-width: 414px) {
+   #fp-nav {display:none;}
+ }
+
+
+
+ /* Scroll button */
+ .scroll_on section {
+     text-align: center !important;
+ }
+ .scroll_down_btn {
+   width: 80px; /* added 5/3/19 - Ben Pluim seeing issue where arrows take up full screen, this fixes */
+   -webkit-filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 1));
+   filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 1));
+   max-width: 100px;
+   -webkit-transform: scale(1.00);
+   transform: scale(1.00);
+   transition: all 0.5s ease-in-out;
+
+   /* antialiasing */
+   outline: 1px solid transparent;
+   -webkit-backface-visibility: hidden;
+   translateZ(0);
+   will-change: transform;
+   -webkit-perspective: 1000;
+ }
+ @media (max-width: 1900px) {
+   .scroll_down_btn {max-width: 100px !important;}
+ }
+ @media (max-width: 1600px) {
+   .scroll_down_btn {max-width: 80px !important;}
+ }
+ @media (max-width: 1200px) {
+   .scroll_down_btn {max-width: 60px !important;}
+ }
+ @media (max-width: 991px) {
+   .scroll_down_btn {max-width: 88px !important;}
+ }
+ @media (max-width: 414px) {
+   .scroll_down_btn {max-width: 88px !important;}
+ }
+
+ .menu_color {
+   -webkit-filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 1.0));
+   filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 1.0));
+ }
+
+ .scroll_down_btn:hover {
+   -webkit-transform: scale(1.10);
+   transform: scale(1.10);
+   transition: all 0.5s ease-in-out;
+
+   /* antialiasing */
+   outline: 1px solid transparent;
+   -webkit-backface-visibility: hidden;
+   translateZ(0);
+   will-change: transform;
+   -webkit-perspective: 1000;
+ }
+
+
+
+
+ .scroll_on.bottom {
+ 	bottom: 40px !important;
+ }
+ .interactive-temp .scroll_on {
+ 	text-align: center !important;
+ }
+ .interactive-temp #scrollOn_btn a {
+ 	padding-top: 60px;
+ }
+ .interactive-temp .scrollOn_btn a {
+ 	display: inline-block;
+ 	-webkit-transform: translate(0, -50%);
+ 	transform: translate(0, -50%);
+ }
+
+
+ .interactive-temp #scrollOn_btn a span {
+ 	position: absolute;
+ 	width: 60px;
+ 	height: 60px;
+ 	margin-left: -23px;
+ 	border: 4px solid #fff;
+ 	border-radius: 100%;
+ 	text-align: center;
+  -webkit-filter: drop-shadow(0px 0px 12px rgba(0,0,0,1));
+  filter: drop-shadow(0px 0px 12px rgba(0,0,0,1));
+ }
+
+
+ .interactive-temp #scrollOn_btn a span::before {
+ 	display: block;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	content: '';
+ 	width: 60px;
+ 	height: 60px;
+ 	box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+ 	border-radius: 100%;
+ 	opacity: 0;
+ 	-webkit-animation: sdb03 3s infinite;
+ 	animation: sdb03 3s infinite;
+ 	box-sizing: border-box;
+ }
+ .interactive-temp #scrollOn_btn a span::after {
+ 	display: block;
+ 	position: absolute;
+ 	top: 50%;
+ 	content: '';
+ 	width: 22px;
+ 	height: 22px;
+ 	margin: -15px 0 0 15px;
+ 	border-left: 5px solid #fff;
+ 	border-bottom: 5px solid #fff;
+ 	-webkit-transform: rotate(-45deg);
+ 	transform: rotate(-45deg);
+
+ }
+ /* Share buttons */
+ .the5basics #share-buttons { top: 300px; }
+ .the5basics #share-buttons p { color: #fff !important; }
+ .the5basics #share-buttons img { padding-left: 10px !important; padding-right: 10px !important; max-width: 300px !important;}
+
+
+
+
+ /* Internet explorer scroll button bug */
+ @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+ 	.interactive-temp #scrollOn_btn a span::after {
+ 		margin: -15px 0 0 15px;
+ 	}
+ }
+ /* Cardiff scroll on bug */
+ .cardiff-row .interactive-temp #scrollOn_btn a span::after {
+ 	margin: -15px 0 0 15px;
+ }
+ /* Nexus scroll bug */
+ @media screen and (min-device-width: 412px) and (max-device-width: 412px) and (orientation: portrait) {
+ 	.interactive-temp #scrollOn_btn a span::after {
+ 		margin: -15px 0 0 15px;
+ 	}
+ }
+ /* ipad  */
+ @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+ 	.interactive-temp #scrollOn_btn a span::after {
+ 		margin: -15px 0 0 15px;
+ 	}
+ 	.scroll_on.bottom {
+ 		bottom: 30px !important;
+ 	}
+ }
+ @media all and (device-height: 768px) and (device-width: 1024px) and (orientation:landscape) {
+ 	.interactive-temp #scrollOn_btn a span::after {
+ 		margin: -15px 0 0 15px;
+ 	}
+ }
+
+ @media (max-width: 1200px) {
+ 	.the5basics .white-box {
+ 		padding: 50px;
+ 	}
+ 	.the5basics img.quote-left {
+ 		margin-top: -45px;
+ 	}
+ 	.the5basics h2 {
+ 		padding-bottom: 0px;
+ 	}
+ }
+
+ @media (max-width: 991px) {
+ 	.the5basics img.quote-right {
+ 		margin-top: -40px !important;
+ 	}
+ }
+
+ @media (max-width: 767px) {
+ 	.interactive-temp .sideBySide_sect .sect_text,
+ 	.interactive-temp #section1 .sideBySide_sect .sect_text,
+ 	.interactive-temp #section3 .sideBySide_sect .sect_text {
+ 		padding: 0 20px !important;
+ 	}
+ 	.the5basics .white-box {
+ 		/*background-color: rgba(255,255,255,0.9) !important;*/
+ 	}
+ 	.the5basics #section1 img.quote-right,
+ 	.the5basics #section3 img.quote-right {
+ 		right: 15px !important;
+ 	}
+ 	.the5basics img.quote-right {
+ 		right: 20px !important;
+ 	}
+ 	.scroll_on.bottom {
+ 		bottom: 35px !important;
+ 	}
+ 	.the5basics #section2 .front-img  {
+ 		background-size: cover;
+ 	}
+ }
+ @media (max-width: 500px) {
+ 	#fp-nav {
+ 		height: 100vw;
+ 		bottom: -200px !important;
+ 		right: 195px;
+ 	}
+ 	#fp-nav ul li, .fp-slidesNav ul li {
+ 		margin: 25px 18px !important;
+ 	}
+ }
+ @media (max-width: 450px) {
+ 	#fp-nav {
+ 		height: 100vw;
+ 		bottom: -180px !important;
+ 		right: 185px;
+ 	}
+ }
+ @media (max-width: 414px) {
+ 	.interactive-temp .sideBySide_sect .sect_text,
+ 	.interactive-temp #section1 .sideBySide_sect .sect_text,
+ 	.interactive-temp #section3 .sideBySide_sect .sect_text {
+ 		padding: 0 10px !important;
+ 	}
+ 	.the5basics .white-box {
+ 		padding: 30px !important;
+ 		margin-top: 50px;
+ 	}
+ 	.the5basics hr {
+ 		margin: 25px auto !important;
+ 	}
+ 	.the5basics img.quote-right {
+ 		right: 0px !important;
+ 		margin-top: -28px !important;
+ 		max-width: 25% !important;
+ 	}
+ 	a.back-to-top {
+ 		bottom: 75px;
+ 	}
+ 	#fp-nav {
+ 		height: 100vw;
+ 		bottom: -165px !important;
+ 		right: 165px;
+ 	}
+ 	.the5basics img.quote-left {
+ 		max-width: 25%;
+ 		left: -5px !important;
+ 		margin-top: -35px !important;
+ 	}
+ 	.the5basics .verticalAlign_content_sect {
+ 		display: block;
+ 	}
+ 	.the5basics #section0 .verticalAlign_content_sect {
+ 		display: table-cell;
+ 	}
+ 	.the5basics #section0 .front-img {
+ 		height: 110vh;
+ 	}
+
+  .the5basics .section {
+   position: relative !important;
+}
+ 	.the5basics #section4 .front-img {
+ 		background-size: cover;
+    width: 110vw;
+    left: -8%;
+ 	}
+ 	.scroll_on.bottom {
+ 		bottom: 10px !important;
+ 	}
+ 	.interactive-temp #scrollOn_btn a span::after {
+ 		margin: -15px 0 0 15px;
+ 	}
+ }
+ .the5basics .section_boxes ol li, .section_boxes ul li {
+  list-style-type: none !important;
+}
+
+ /* iphones messing up with scroll on button */
+ /* iphone X */
+  @media only screen and (min-device-width : 375px) and (max-device-width : 812px)and (-webkit-device-pixel-ratio : 3) { .the5basics .scroll_on { display: none; }}
+ /* iphone 6,7,8 */
+  @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { .the5basics .scroll_on { display: none; }}
+ /* iphone 6,7,8 - plus */
+  @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { .the5basics .scroll_on { display: none; }}
+  /* iphone 5 */
+  @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { .the5basics .scroll_on { display: none; }}
+
+  @media (max-width: 600px) { .the5basics .scroll_on { display: none; }}
+
+ /* ========================================== */
+ /* ==== Overwriting Interactive Template ==== */
+ /* ========================================== */
+ .interactive-temp .sideBySide_sect .sect_text {
+ 	padding: 0px;
+ 	padding-right: 50px;
+ }
+
+ .interactive-temp .sect_paragraph {
+ 	padding-bottom: 0;
+ }
+ .fp-tableCell { /* from QA */
+ 	width: 100% !important;
+ }
+ @media (max-width: 414px) {
+ 	.section {
+ 		height: 100vh;
+ 		display: block;
+ 		vertical-align: middle;
+ 	}
+ 	.interactive-temp .intro {
+ 		display: block !important;
+ 	}
+
+ }
+ /* ========================================== */
+ /* ======== Specfic section stylings ======== */
+ /* ========================================== */
+ /* Edge images overlapping */
+/* @supports (-ms-ime-align:auto) {
+ 	.interactive-temp #scrollOn_btn a span::after {
+ 		margin: -15px 0 0 15px;
+ 	}
+ 	}*/
+ 	/* Slide 0: MENU */
+  .the5basics #section0 .menu_nav_mobile {display:none !important;}
+  .the5basics .title_section {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/menu/background.svg');}
+
+ 	.the5basics #section0 .white-box {
+ 	/*	background-color: rgba(255,255,255,0.75);*/
+ 		box-shadow: none;
+ 		padding-bottom: 75px;
+ 	}
+    .nav-link-mobile {
+    width:300px;
+    padding-top: 16px;
+  }
+
+  .menu_nav_mobile ul  {
+    list-style: none;
+    margin: 0;
+    padding:0;
+  }
+  .menu_nav_mobile li  {
+    text-align: center !important;
+  }
+
+
+  .nav-link-mobile-logo {
+    width:156px;
+  }
+  #content .o-container.c-customsection__container {
+     margin: 0 !important;
+     padding: 0;
+     width: 100%;
+  }
+
+  /* Slide 0. MENU ; */
+  @media (max-width: 1900px) {
+    .the5basics #section0 .sideBySide_sect .sect_text {padding: 0 !important;padding-left: 0px !important;}
+  }
+  @media (max-width: 1200px) {
+    .the5basics #section0 h1 { font-size: 52px !important; line-height: 52px !important; }
+    .the5basics #section0 h2 { font-size: 21px !important; line-height: 26px !important; }
+    .the5basics #section0 h3 { font-size: 23px !important; line-height: 34px !important; }
+    .the5basics #section0 p  { font-size: 18px !important; line-height: 24px !important; }
+    .the5basics #section0 .sect_title p, .the5basics #section0 .author-title { font-size: 18px !important; line-height: 27px !important; }
+    .the5basics #section0 .back-img {opacity: .4 !important;}
+    .the5basics #section0 .sideBySide_sect .sect_text {padding: 0;padding-left: 0px;}
+  }
+  @media (max-width: 991px) {
+    .the5basics .title_section {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/menu/mobile/mbackground.svg');}
+    .the5basics #section0 .menu_nav_mobile {display:initial !important;}
+    .the5basics #section0 .menu_nav {display:none !important;}
+    .the5basics #section0 h2 {font-size: 32px !important;line-height: 38px !important;}
+    .the5basics #section0 .back-img {opacity: .4 !important;}
+    .the5basics #section0 p {font-size: 22px !important;line-height: 33px !important;}
+    .the5basics #section0 .verticalAlign_content_sect {vertical-align: top;padding-top: 30px;}
+  }
+
+
+  @media (max-width: 414px) {
+    .the5basics #section0 h2 {font-size: 27px !important;line-height: 33px !important;}
+    .the5basics #section0 h2 {font-size: 30px !important;line-height: 36px !important;}
+    .the5basics #section0 .back-img {opacity: .4 !important;}
+
+    @supports (-ms-ime-align:auto) {
+      .nav-link {
+        height: 100px !important;
+        width: 100px !important;
+      }
+    }
+
+
+    .section_FullWidth .the5basics img {
+        max-width: 200px;
+    }
+
+
+    .menu_nav {
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .nav-items {
+      position: relative;
+      width: 20rem;
+      height: 20rem;
+      padding: 0;
+      border-radius: 50%;
+      list-style: none;
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+    }
+    .nav-items > * {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 5rem;
+      height: 5rem;
+      margin: -2.5rem;
+    }
+    .nav-items > *:nth-of-type(1) {
+      -webkit-transform: rotate(-16deg) translate(35rem) rotate(16deg);
+              transform: rotate(-16deg) translate(35rem) rotate(16deg);
+    }
+    .nav-items > *:nth-of-type(2) {
+      -webkit-transform: rotate(28deg) translate(28rem) rotate(-28deg);
+              transform: rotate(28deg) translate(28rem) rotate(-28deg);
+    }
+    .nav-items > *:nth-of-type(3) {
+      -webkit-transform: rotate(90deg) translate(21rem) rotate(-90deg);
+              transform: rotate(90deg) translate(21rem) rotate(-90deg);
+    }
+    .nav-items > *:nth-of-type(4) {
+      -webkit-transform: rotate(152deg) translate(28rem) rotate(-152deg);
+              transform: rotate(152deg) translate(28rem) rotate(-152deg);
+    }
+    .nav-items > *:nth-of-type(5) {
+      -webkit-transform: rotate(196deg) translate(35rem) rotate(-196deg);
+              transform: rotate(196deg) translate(35rem) rotate(-196deg);
+    }
+
+    .nav-item {display: flex;justify-content: center;align-items: center;height: 30px;width: 6rem;border-radius: 50%;font-size: 3rem;}
+
+    .nav-link {color: #fff;display: flex;justify-content: center;align-items: center;height: 60px;width: 60px;border-radius: 50%;transition: all 0.1s ease-in-out;}
+    .nav-link:hover {
+      -webkit-transform: scale(1.20);
+              transform: scale(1.20);
+    }
+    .nav-link:hover img {
+      -webkit-filter: drop-shadow(0px 0px 33px rgba(255,255,255,1));
+      filter: drop-shadow(0px 0px 33px rgba(255,255,255,1));
+    }
+  }
+
+
+
+
+
+
+ 	/* Slide 1. Credit and debt */
+
+  .the5basics #section1 .mfloater {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/1/floater.png');}
+  .the5basics #section1 { background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/1/background.svg'); }
+ 	.the5basics #section1 .background1 {
+ 		background-size: cover;
+ 		background-position-x: right;
+    background-repeat: no-repeat;
+ 	}
+  .the5basics #section1 .background2 {
+ 		background-size: cover;
+ 		background-position-x: right;
+    background-repeat: no-repeat;
+ 	}
+  .the5basics #section1 .front-img {
+ 		background-size: cover;
+ 		background-position-x: right;
+    background-repeat: no-repeat;
+ 	}
+ 	.interactive-temp #section1 .sideBySide_sect .sect_text {
+ 		padding: 0;
+ 		padding-left: 75px;
+ 	}
+  div#section1 {
+     height: 100vh;
+  }
+
+  /* Slide 1. Credit and debt: Mobile Sizing ; */
+  @media (max-width: 1440px) {
+    .interactive-temp #section1 .sideBySide_sect .sect_text {padding: 0;padding-left: 23px;}
+    .the5basics #section1 h1 { font-size: 52px !important; line-height: 31px !important; }
+    .the5basics #section1 h2 { font-size: 25px !important; line-height: 31px !important; }
+    .the5basics #section1 h3 { font-size: 31px !important; line-height: 34px !important; }
+    .the5basics #section1 p  { font-size: 18px !important; line-height: 24px !important; }
+  }
+  @media (max-width: 1600px) {
+    .the5basics .white-box {padding: 10px !important;padding-bottom: 0px !important;}
+    .interactive-temp #section1 .sideBySide_sect .sect_text {padding: 0;padding-left: 20px;}
+  }
+  @media (max-width: 1200px) {
+    .the5basics #section1 h1 { font-size: 52px !important; line-height: 52px !important; }
+    .the5basics #section1 h2 { font-size: 21px !important; line-height: 26px !important; }
+    .the5basics #section1 h3 { font-size: 23px !important; line-height: 34px !important; }
+    .the5basics #section1 p  { font-size: 18px !important; line-height: 24px !important; }
+    .the5basics #section1 .sect_title p, .the5basics #section1 .author-title { font-size: 18px !important; line-height: 27px !important; }
+    /*.the5basics #section1 .back-img {opacity: .4 !important;}*/
+    .interactive-temp #section1 .sideBySide_sect .sect_text {padding: 0;padding-left: 0px;}
+    .the5basics .white-box {padding: 25px !important;padding-bottom: 50px !important;}
+  }
+  @media (max-width: 991px) {
+    .the5basics #section1 {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/1/mobile/mbackground.svg');}
+    .the5basics #section1 .mbackground2 {background-image: none;background-color: #000000;opacity: 0.4; }
+    .the5basics #section1 .mbackground3, .the5basics #section1 .mcloud, .the5basics #section1 .mseaweed, .the5basics #section1 .mlines, .the5basics #section1 .mfish, .the5basics #section1 .mfloater {display:none;}
+    .the5basics #section1 h1 { font-size: 52px !important; line-height: 54px !important; }
+    .the5basics #section1 h2 {font-size: 27px !important;line-height: 38px !important;}
+    .the5basics #section1 h3 { font-size: 23px !important; line-height: 24px !important; }
+    .the5basics #section1 p  { font-size: 20px !important; line-height: 26px !important; }
+    .the5basics #section1 .sect_title p, .the5basics #section1 .author-title { font-size: 18px !important; line-height: 27px !important; }
+    /*.the5basics #section1 .back-img {opacity: .4 !important;}*/
+    .interactive-temp #section1 .sideBySide_sect .sect_text {padding: 0;padding-left: 0px;}
+    .the5basics .white-box {padding: 25px !important;padding-bottom: 50px !important;}
+  }
+  @media (max-width: 414px) {
+  .the5basics #section1 h1 { font-size: 35px !important; line-height: 34px !important; }
+    .the5basics #section1 h2 {font-size: 16px !important;line-height: 26px !important; padding-bottom: 0px;}
+    .the5basics #section1 h3 {font-size: 20px !important;line-height: 34px !important;}
+  /*  .the5basics #section1 .back-img {opacity: .4 !important;}*/
+    .the5basics .white-box {padding: 10px !important; margin-top: 10px;}
+    .the5basics #section1 p  { font-size: 16px !important; line-height: 22px !important; }
+    .the5basics #section1 .floater  {display:none;}
+    .the5basics #section1 .verticalAlign_content_sect {padding: 5px;}
+    .the5basics .section, .the5basics .intro {min-height: 150vh !important;}
+
+  }
+
+
+/* Slide 2. Interest ; */
+.the5basics .section2background {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/2/background.svg');}
+.the5basics #section2 .rollercoasterdiv {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/2/rollercoaster.svg');}
+.the5basics #section2 .rails {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/2/rails.svg');}
+.the5basics #section2 .rollermid {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/2/mid.svg');}
+.the5basics #section2 .sideBySide_sect .sect_text {padding-right: 75px;}
+
+/* image bg closest to the user (foreground) */
+.the5basics .rails {
+ background-repeat: no-repeat;
+ height: 100vh;
+ position: absolute;
+ width: 180vh;
+}
+.the5basics #section2 .front-img {
+   width: 172vh;
+}
+/* keep backgrounds down */
+.the5basics .rails,.the5basics .rollercoasterdiv, .the5basics .handhourglassdiv, .the5basics .mescalator, .the5basics .mwaterdispenser, .the5basics .walking_mandiv, .the5basics .mrobber, .the5basics .sleeper, .the5basics .rollermid {
+background-position: left bottom;
+}
+
+/* Slide 2. Interest: Mobile Sizing ; */
+
+.front-img.rollercoasterdiv.rollercoaster, .front-img.rails {
+   left: -25% !important;
+}
+.body-container #content .o-container .front-img.rollercoasterdiv {
+   left: -25% !important;
+}
+@media (max-width: 1600px) and (min-width: 1500px) {
+.the5basics .rails, .the5basics #section2 .front-img {
+left: -10%;
+}
+}
+@media (max-width: 1500px) and (min-width: 1400px) {
+.the5basics .rails, .the5basics #section2 .front-img {
+left: -15%;
+}
+}
+@media (max-width: 1400px) and (min-width: 1300px) {
+.the5basics .rails, .the5basics #section2 .front-img {
+left: -20%;
+}
+}
+@media (max-width: 1300px) and (min-width: 1200px) {
+.the5basics .rails, .the5basics #section2 .front-img {
+left: -11%;
+}
+}
+
+
+@media (max-width: 1440px) {
+  .interactive-temp #section2 .sideBySide_sect .sect_text {padding: 0;padding-right: 23px;}
+  .the5basics #section2 h1 { font-size: 52px !important; line-height: 31px !important; }
+  .the5basics #section2 h2 { font-size: 25px !important; line-height: 31px !important; }
+  .the5basics #section2 h3 { font-size: 31px !important; line-height: 34px !important; }
+  .the5basics #section2 p  { font-size: 18px !important; line-height: 24px !important; }
+}
+@media (max-width: 1200px) {
+  .the5basics #section2 h1 { font-size: 52px !important; line-height: 52px !important; }
+  .the5basics #section2 h2 { font-size: 21px !important; line-height: 26px !important; }
+  .the5basics #section2 h3 { font-size: 23px !important; line-height: 34px !important; }
+  .the5basics #section2 p  { font-size: 18px !important; line-height: 24px !important; }
+  .the5basics #section2 .sect_title p, .the5basics #section2 .author-title { font-size: 18px !important; line-height: 27px !important; }
+
+}
+@media (max-width: 991px) {
+  .the5basics #section2 {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/2/mobile/mbackground.svg');}
+  .the5basics #section2 .rollercoasterdiv,.the5basics #section2 .rails,.the5basics #section2 .rollermid {display: none;}
+  .the5basics #section2 h2 {font-size: 32px !important;line-height: 38px !important;}
+  .the5basics #section2 p {font-size: 22px !important;line-height: 33px !important;}
+
+}
+@media (max-width: 414px) {
+  .the5basics #section2 {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/2/mobile/mbackground.svg');}
+  .the5basics #section2 .rollercoasterdiv,.the5basics #section2 .rails,.the5basics #section2 .mbackground2 {display: none;}
+  .the5basics #section2 h1 { font-size: 35px !important; line-height: 18px !important; }
+  .the5basics #section2 h2 {font-size: 16px !important;line-height: 26px !important; padding-bottom: 0px;}
+  .the5basics #section2 h3 {font-size: 20px !important;line-height: 34px !important;}
+  .the5basics .white-box {padding: 10px !important; margin-top: 10px;}
+  .the5basics #section2 p  { font-size: 16px !important; line-height: 26px !important; }
+  .the5basics #section2 .front-img {background-size: cover;background-position-x: right; background-position: bottom; width: 500px;}
+  .the5basics #section2 .verticalAlign_content_sect {padding: 5px;}
+}
+
+
+
+/* Slide 3. The Value of Time */
+.the5basics .section3background {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/3/background.svg');}
+.the5basics #section3 .mclock {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/3/clock.svg');}
+.the5basics #section3 .mhourglass {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/3/hourglass.svg');}
+
+
+.interactive-temp #section3 .sideBySide_sect .sect_text {padding: 0;padding-left: 75px;}
+
+.the5basics #section3 .white-box {
+  /*	background-color: rgba(255,255,255,0.85);*/
+}
+
+.the5basics #section3 .front-img {
+  background-size: cover;
+  background-position-x: right;
+}
+
+.the5basics .bushes-img {
+  position: absolute;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.the5basics #section3 .front-img {
+   width: 110vw !important;
+   left: 15%;
+}
+
+.the5basics #section1 img.quote-right, .the5basics #section3 img.quote-right {
+  right: -25px;
+}
+
+
+/* Slide 3. The Value of Time: Mobile Sizing ; */
+@media (max-width: 1440px) {
+  .interactive-temp #section3 .sideBySide_sect .sect_text {padding: 0;padding-left: 23px;}
+  .the5basics #section3 h1 { font-size: 52px !important; line-height: 31px !important; }
+  .the5basics #section3 h2 { font-size: 25px !important; line-height: 31px !important; }
+  .the5basics #section3 h3 { font-size: 31px !important; line-height: 34px !important; }
+  .the5basics #section3 p  { font-size: 18px !important; line-height: 24px !important; }
+}
+@media (max-width: 1200px) {
+  .the5basics #section3 h1 { font-size: 52px !important; line-height: 55px !important; }
+  .the5basics #section3 h2 { font-size: 21px !important; line-height: 26px !important; }
+  .the5basics #section3 h3 { font-size: 23px !important; line-height: 34px !important; }
+  .the5basics #section3 p  { font-size: 18px !important; line-height: 24px !important; }
+  .the5basics #section3 .sect_title p, .the5basics #section3 .author-title { font-size: 18px !important; line-height: 27px !important; }
+  .the5basics #section3 .back-img {opacity: .4 !important;}
+  .interactive-temp #section3 .sideBySide_sect .sect_text {padding: 0;padding-left: 0px;}
+}
+@media (max-width: 991px) {
+  .the5basics .section3background {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/3/mobile/mbackground.svg');}
+  .the5basics #section3 .mclock,.the5basics #section3 .mhourglass,.the5basics #section3 .handhourglassdiv {display: none;}
+  .the5basics #section3 h2 {font-size: 32px !important;line-height: 38px !important;}
+  .the5basics #section3 .back-img {opacity: .4 !important;}
+  .the5basics #section3 p {font-size: 22px !important;line-height: 33px !important;}
+  .interactive-temp #section3 .sideBySide_sect .sect_text {padding: 0;padding-left: 23px;}
+
+}
+@media (max-width: 414px) {
+  .the5basics .section3background {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/3/mobile/mbackground.svg');}
+  .the5basics #section3 .mclock,.the5basics #section3 .mhourglass,.the5basics #section3 .handhourglassdiv {display: none;}
+  .the5basics #section3 h1 { font-size: 35px !important; line-height: 33px !important; }
+  .the5basics #section3 h2 {font-size: 16px !important;line-height: 26px !important; padding-bottom: 0px;}
+  .the5basics #section3 h3 {font-size: 20px !important;line-height: 34px !important;}
+  .the5basics #section3 .back-img {opacity: .4 !important;}
+  .the5basics .white-box {padding: 10px !important; margin-top: 10px;}
+  .the5basics #section3 p  { font-size: 16px !important; line-height: 26px !important; }
+  .the5basics #section3 .front-img {background-size: cover;background-position-x: right; background-position: bottom; width: 500px;}
+
+}
+
+
+/* Slide 4. Inflation */
+.the5basics .section4background {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/4/background.svg');}
+.the5basics #section4 .mwalking_mandiv {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/4/man_walking.svg');}
+.the5basics #section4 .mescalator {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/4/escalator.svg');overflow: visible;}
+.the5basics #section4 .mwaterdispenser {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/4/waterdispenser.svg');}
+.the5basics #section4 .sideBySide_sect .sect_text {padding-right: 75px;}
+
+.the5basics .middle-img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+/* Slide 4. Inflation: Mobile Sizing ; */
+@media(min-width: 1441px) {
+  #section4 .white-box {
+    padding-left: 30px !important;
+  }
+  .interactive-temp #section4 h2 {
+    font-size: 26px !important;
+    line-height: 39px !important;
+  }
+}
+@media (max-width: 1440px) {
+  .interactive-temp #section4 .sideBySide_sect .sect_text {padding: 0;padding-left: 23px;}
+  .the5basics #section4 h1 { font-size: 52px !important; line-height: 31px !important; }
+  .the5basics #section4 h2 { font-size: 25px !important; line-height: 31px !important; }
+  .the5basics #section4 h3 { font-size: 31px !important; line-height: 34px !important; }
+  .the5basics #section4 p  { font-size: 18px !important; line-height: 24px !important; }
+}
+@media (max-width: 1200px) {
+  .the5basics #section4 h1 { font-size: 52px !important; line-height: 52px !important; }
+  .the5basics #section4 h2 { font-size: 21px !important; line-height: 26px !important; }
+  .the5basics #section4 h3 { font-size: 23px !important; line-height: 34px !important; }
+  .the5basics #section4 p  { font-size: 18px !important; line-height: 24px !important; }
+  .the5basics #section4 .sect_title p, .the5basics #section4 .author-title { font-size: 18px !important; line-height: 27px !important; }
+
+}
+@media (max-width: 991px) {
+  .the5basics .section4background {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/4/mobile/mbackground.svg');}
+  .the5basics #section4 .section2background,.the5basics #section4 .mwalking_mandiv,.the5basics #section4 .mescalator,.the5basics #section4 .mwaterdispenser {display: none;}
+  .the5basics #section4 h2 {font-size: 32px !important;line-height: 38px !important;}
+  .the5basics #section4 p {font-size: 22px !important;line-height: 33px !important;}
+
+}
+@media (max-width: 414px) {
+  .the5basics .section4background {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/4/mobile/mbackground.svg');}
+  .the5basics #section4 .section2background,.the5basics #section4 .mwalking_mandiv,.the5basics #section4 .mescalator,.the5basics #section4 .mwaterdispenser {display: none;}
+  .the5basics #section4 h1 { font-size: 35px !important; line-height: 18px !important; }
+  .the5basics #section4 h2 {font-size: 16px !important;line-height: 26px !important; padding-bottom: 0px;}
+  .the5basics #section4 h3 {font-size: 20px !important;line-height: 34px !important;}
+  .the5basics .white-box {padding: 10px !important; margin-top: 10px;}
+  .the5basics #section4 p  { font-size: 16px !important; line-height: 26px !important; }
+
+}
+
+/* Slide 5. Identity Theft and Safety  */
+.the5basics .section5background {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/5/background.svg');}
+.the5basics #section5 .mshine1 {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/5/lamps-shine1.svg');}
+.the5basics #section5 .mshine2 {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/5/lamps-shine2.svg');}
+.the5basics #section5 .sleeper {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/5/sleeper.svg');}
+.the5basics #section5 .mrobber {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/5/robber.svg');}
+.the5basics #section5 .mlamps {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/5/lamps.svg');}
+.the5basics #section5 .lettersfallingdiv {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/5/lettersfalling.svg');}
+
+
+
+
+
+.interactive-temp #section5 .sideBySide_sect .sect_text {
+  padding: 0;
+  padding-left: 75px;
+}
+
+.the5basics #section5 .white-box {
+  /*	background-color: rgba(255,255,255,0.85);*/
+}
+
+.the5basics #section5 .front-img {
+  background-size: cover;
+  background-position-x: right;
+}
+
+.the5basics .bushes-img {
+  position: absolute;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.the5basics #section1 img.quote-right, .the5basics #section5 img.quote-right {
+  right: -25px;
+}
+
+
+.the5basics #section5 .sleeper-stage {
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background-position: right;
+}
+
+
+/* Slide 5.*/
+
+@media (max-width: 1440px) {
+  .the5basics #section5 .lettersfallingdiv {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/5/lettersfalling2.svg');}
+  .the5basics #section5 .sleeper {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/5/sleeper2.svg');}
+  .the5basics #section5 .mrobber {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/5/robber2.svg');}
+
+
+  .interactive-temp #section5 .sideBySide_sect .sect_text {padding: 0;padding-left: 23px;}
+  .the5basics #section5 h1 { font-size: 52px !important; line-height: 55px !important; }
+  .the5basics #section5 h2 { font-size: 25px !important; line-height: 31px !important; }
+  .the5basics #section5 h3 { font-size: 31px !important; line-height: 34px !important; }
+  .the5basics #section5 p  { font-size: 18px !important; line-height: 24px !important; }
+}
+@media (max-width: 1200px) {
+  .the5basics #section5 h1 { font-size: 52px !important; line-height: 55px !important; }
+  .the5basics #section5 h2 { font-size: 21px !important; line-height: 26px !important; }
+  .the5basics #section5 h3 { font-size: 23px !important; line-height: 34px !important; }
+  .the5basics #section5 p  { font-size: 18px !important; line-height: 24px !important; }
+  .the5basics #section5 .sect_title p, .the5basics #section5 .author-title { font-size: 18px !important; line-height: 27px !important; }
+  .interactive-temp #section5 .sideBySide_sect .sect_text {padding: 0;padding-left: 0px;}
+}
+@media (max-width: 991px) {
+  .the5basics #section5 {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/5/mobile/mbackground.svg');background-position: bottom;}
+  .the5basics #section5 .section2background,.the5basics #section5 .mouse_animation2,.the5basics #section5 .mstool,.the5basics #section5 .mshine1,.the5basics #section5 .mshine2,.the5basics #section5 .mrobber,.the5basics #section5 .lettersfallingdiv {display: none;}
+  .the5basics #section5 .sleeper {background-image: none;}
+  .the5basics #section5 h2 {font-size: 32px !important;line-height: 38px !important;}
+  .the5basics #section5 p {font-size: 22px !important;line-height: 33px !important;}
+
+}
+@media (max-width: 414px) {
+  .the5basics #section5 h1 { font-size: 35px !important; line-height: 32px !important; }
+  .the5basics #section5 h2 {font-size: 16px !important;line-height: 26px !important; padding-bottom: 0px;}
+  .the5basics #section5 h3 {font-size: 20px !important;line-height: 34px !important;}
+  .the5basics .white-box {padding: 10px !important; margin-top: 10px;}
+  .the5basics #section5 p  { font-size: 16px !important; line-height: 26px !important; }
+
+
+}
+
+
+
+
+  /* Slide 6. Share This */
+  .the5basics #section6 .front-img {
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: absolute;
+  }
+  .the5basics #section6 .verticalAlign_content_sect {
+    padding-top: 100px;
+  }
+  .the5basics #section6 .white-box {
+ 		padding: 30px !important;
+ 		margin-top: 0px;
+ 	}
+
+  .the5basics #section6 h1 {
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    text-align: center !important;
+  }
+  .the5basics #section6 .verticalAlign_content_sect {
+        vertical-align: top !important;
+  }
+
+  /* Slide 6. Share This ; */
+  @media (max-width: 1200px) {
+    .the5basics #section6 h1 { font-size: 52px !important; line-height: 52px !important; }
+    .the5basics #section6 h2 { font-size: 21px !important; line-height: 26px !important; }
+    .the5basics #section6 h3 { font-size: 23px !important; line-height: 34px !important; }
+    .the5basics #section6 p  { font-size: 18px !important; line-height: 24px !important; }
+    .the5basics #section6 .sect_title p, .the5basics #section6 .author-title { font-size: 18px !important; line-height: 27px !important; }
+    .the5basics #section6 .back-img {opacity: .4 !important;}
+    .interactive-temp #section6 .sideBySide_sect .sect_text {padding: 0;padding-left: 0px;}
+  }
+  @media (max-width: 991px) {
+    .the5basics #section6 h2 {font-size: 32px !important;line-height: 38px !important;}
+    .the5basics #section6 .back-img {opacity: .4 !important;}
+    .the5basics #section6 p {font-size: 22px !important;line-height: 33px !important;}
+  }
+  @media (max-width: 414px) {
+    .the5basics #section6 h1 { font-size: 35px !important; line-height: 34px !important; }
+    .the5basics #section6 h2 {font-size: 16px !important;line-height: 26px !important; padding-bottom: 0px;}
+    .the5basics #section6 h3 {font-size: 20px !important;line-height: 34px !important;}
+    .the5basics #section6 .back-img {opacity: .4 !important;}
+    .the5basics .white-box {padding: 10px !important; margin-top: 10px;}
+    .the5basics #section6 p { font-size: 16px !important; line-height: 26px !important; }
+    .the5basics #section6 .verticalAlign_content_sect {padding-top:50px !important; }
+    .the5basics #share-buttons {top: 219px;}
+  }
+
+    /* Slide 7. Sources */
+
+    .the5basics #section7 ol {
+      display: block;
+      list-style-type: decimal;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 40px;
+      font-size: 20px;
+    }
+
+    .the5basics #section7 .front-img {
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100vw;
+      background-size: cover;
+      position: absolute;
+    }
+
+
+    .the5basics #section7 h1 {
+      padding-bottom: 20px;
+      margin-bottom: 0;
+      text-align: left !important;
+    }
+    .the5basics #section7 .white-box { padding-left: 50px;}
+
+/* Slide 7. Sources ; */
+    @media (max-width: 1900px) {
+      .interactive-temp #section7 .sideBySide_sect .sect_text {padding-right: 0px !important;padding: 50px !important;}
+    }
+
+    @media (max-width: 1200px) {
+      .the5basics #section7 h1 { font-size: 52px !important; line-height: 52px !important; }
+      .the5basics #section7 h2 { font-size: 21px !important; line-height: 26px !important; }
+      .the5basics #section7 h3 { font-size: 23px !important; line-height: 34px !important; }
+      .the5basics #section7 p  { font-size: 18px !important; line-height: 24px !important; }
+      .the5basics #section7 .sect_title p, .the5basics #section7 .author-title { font-size: 18px !important; line-height: 27px !important; }
+      .the5basics #section7 .back-img {opacity: .4 !important;}
+      .interactive-temp #section7 .sideBySide_sect .sect_text {padding-right: 0px !important;padding: 50px !important;}
+    }
+
+    @media (max-width: 991px) {
+      .the5basics #section7 h2 {font-size: 32px !important;line-height: 38px !important;}
+      .the5basics #section7 .back-img {opacity: .4 !important;}
+      .the5basics #section7 ol { font-size: 18px !important; line-height: 24px !important; }
+    }
+
+    @media (max-width: 414px) {
+      .the5basics #section7 h1 {font-size: 24px !important;line-height: 25px !important;}
+      .the5basics #section7 h2 {font-size: 30px !important;line-height: 36px !important;}
+      .the5basics #section7 .back-img {opacity: .4 !important;}
+      .the5basics #section7 ol { font-size: 16px !important; line-height: 24px !important; }
+    }
+
+
+
+/* Added code changes during qa and browser testing  start*/
+@media (max-width: 992px) and (min-width: 650px) {
+.the5basics #section1 h1, .the5basics #section2 h1, .the5basics #section3 h1, .the5basics #section4 h1, .the5basics #section5 h1,  .the5basics #section7 h1 {
+   font-size: 45px !important;
+   line-height: 48px;
+   padding: 0;
+   margin-top: 0;
+}
+.the5basics #section1 h3, .the5basics #section2 h3, .the5basics #section3 h3, .the5basics #section4 h3, .the5basics #section5 h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 550px;
+}
+.the5basics #section1 h2, .the5basics #section2 h2, .the5basics #section3 h2, .the5basics #section4 h2, .the5basics #section5 h2 {
+   font-size: 18px !important;
+   line-height: 27px !important;
+   padding-bottom: 0px;
+}
+.the5basics #section1 p, .the5basics #section2 p,.the5basics #section3 p, .the5basics #section4 p, .the5basics #section5 p {
+   font-size: 16px !important;
+   line-height: 24px !important;
+}
+}
+
+@media (max-width: 649px) {
+.the5basics #section1 h1, .the5basics #section2 h1, .the5basics #section3 h1, .the5basics #section4 h1, .the5basics #section5 h1,  .the5basics #section7 h1 {
+   font-size: 24px !important;
+   line-height: 25px;
+}
+.the5basics #section1 h2, .the5basics #section2 h2, .the5basics #section3 h2, .the5basics #section4 h2, .the5basics #section5 h2 {
+   font-size: 14px !important;
+   line-height: 22px !important;
+   padding-bottom: 0px;
+}
+.the5basics #section1 p, .the5basics #section2 p,.the5basics #section3 p, .the5basics #section4 p, .the5basics #section5 p {
+   font-size: 16px !important;
+   line-height: 24px !important;
+}
+.verticalAlign_content_sect {
+   vertical-align: top;
+   padding-top: 10px;
+}
+}
+
+@media (max-width: 400px) {
+.the5basics h1 { padding-bottom: 15px; }
+}
+
+.the5basics .section {
+  overflow-y: hidden;
+}
+.the5basics .section, .the5basics .intro {
+  height: 100% !important;
+  min-height: 100vh;
+}
+@media (max-width: 991px) {
+  /*.the5basics .section, .the5basics .intro {
+    height: 140% !important;
+    min-height: 150vh !important;
+  }*/
+}
+
+.the5basics .section {
+   position: relative !important;
+}
+
+/* target edge */
+@supports (-ms-ime-align:auto) {
+   .nav-link {
+     height: 100px !important;
+     width: 100px !important;
+   }
+   .the5basics #section2 .rollercoasterdiv {
+   width:100vw !important; left:-20%;
+   }
+   @media (max-width: 991px) {
+   /*.the5basics .section, .the5basics .intro {min-height: 150vh !important;}*/
+  }
+ }
+
+/* target ie 11 up*/
+ @media all and (-ms-high-contrast:none) {
+   @media (max-width: 1200px) {
+     /*.the5basics .section, .the5basics .intro {min-height: 150vh !important;}*/
+    }
+    @media (max-width: 991px) {
+      .the5basics #section0 .menu_nav_mobile {display:inline !important;}
+      /*.the5basics .section, .the5basics .intro {min-height: 150vh !important;}*/
+
+     }
+    }
+
+    _:-ms-fullscreen, :root @media (max-width: 991px) {
+      .the5basics #section0 .menu_nav_mobile {display:inline !important;}
+      @media (max-width: 1200px) {
+        /*.the5basics .section, .the5basics .intro {min-height: 150vh !important;}*/
+       }
+    }
+
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      @media (max-width: 1200px) {
+        /*.the5basics .section, .the5basics .intro {min-height: 150vh !important;}*/
+       }
+      @media (max-width: 991px) {
+        .the5basics #section0 .menu_nav_mobile {display:inline !important;}
+       }
+      .the5basics .title_section {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/menu/background.svg');}
+      .the5basics .title_section {background-color: #CEECF9; }  /* SV edit */
+      .the5basics #section1 { background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/1/background.png'); }
+      .the5basics .section2background {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/2/background.png');}
+      .the5basics .section3background {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/3/background.png');}
+      .the5basics .section4background {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/4/background.png');}
+      .the5basics .section5background {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/5/background.png');}
+      .the5basics #section6 {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/6/background.png') !important;}
+      .the5basics #section7 {background-image: url('https://fmg-websites-custom.s3.amazonaws.com/roymayor/the5basics/images/7/background.png') !important;}
+
+    }
+
+
+
+/* target firefox */
+ @media screen and (min--moz-device-pixel-ratio:0) {
+   .nav-link {
+     height: 100px !important;
+     width: 150px !important;
+    }
+   article img {
+   padding: 0px;
+    }
+  }
+
+ _:-moz-tree-row(hover), .nav-link {
+   height: 100px !important;
+   width: 150px !important;
+ }
+ _:-moz-tree-row(hover), article img {
+     padding: 0px;
+     width: 150px;
+  }
+_:-moz-tree-row(hover), .section_FullWidth .the5basics img {
+    padding: 0px;
+    width: 150px;
+ }
+
+
+/* Added code changes during qa and browser testing END*/
+
+/* Blink Styles */
+:root {
+	--animation-time: 0.5s;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.8;
+  } 100% {
+    opacity: 1;
+  }
+}
+
+#blink_me {
+  animation: flicker var(--animation-time) ease alternate infinite;
+}
+
+/*TITLE & META REMOVAL*/
+.c-matter__title, .c-matter__meta {display:none;}

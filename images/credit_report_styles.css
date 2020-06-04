@@ -1,0 +1,405 @@
+/* General Styling */
+h3 {font-weight: 800!important;}
+/* SLIDES - General Styling */
+.slide-h1 {font-size: 150px; color: #fff; font-weight: 900;}
+.slide_copy p {font-size: 18px; color: #fff; padding: 10px 0;}
+/* Slide 01 */
+.slide_01a {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/set-up/bg.png"); background-size: cover; height: 100%; padding: 5% 15%;}
+.slide_01a-content {padding: 5% 0}
+.slide_01b {background:;}
+
+/* Slide 02 */
+.slide_02a {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/credit-report/bg.png"); background-size: cover; height: 100%;}
+.slide_02a-content {padding: 5% 10%}
+.slide_02a-content .slide_copy {padding-top: 15%!important;}
+.slide_02b {background:;}
+
+/* Slide 03 */
+.slide_03a {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/personal-info/bg-combo.png"); background-size: cover; height: 100%; padding: 5% 15%; background-position: center;}
+.slide_03a-content {padding: .5% 0}
+.slide_03b {background:;}
+
+/* Slide 04 */
+.slide_04a {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/account-info/bg-combo.png"); background-size: cover; height: 100%; padding: 5% 15%;}
+.slide_04a-content {padding-top: 10%}
+.slide_04b {background:;}
+
+/* Slide 05 */
+.slide_05a {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/hard-soft/bg-combo.png"); background-size: cover; height: 100%; padding: 5% 15%;}
+.slide_05a img {width: 60%!important; padding-bottom: 2%;}
+/*.slide_5a-title {padding: 5%;}*/
+.slide_5a-content {padding: 5%;}
+/*.slide_05a-content {padding: 5% 0}*/
+.slide_05b {background:;}
+
+/* Slide 06 */
+.slide_06a {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/solving-crime/bg.png"); background-size: cover; height: 100%; padding: 5% 15%;}
+.slide_06a-content {padding: 5% 0}
+.slide_06b {background:;}
+
+/* Slide 07 */
+.slide_07a {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/title-slides/the-end/bg.png"); background-size: cover; background-position: center; height: 100%; padding: 5% 15%;}
+
+/* Pills&Tabs Hacks */
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {background: #FFC100!important;}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {background: #FFC100!important; color: #2B281D!important; font-weight: bold; border-radius: 0!important;}
+.nav-pills>li {border: 2px solid #FFC100!important; color: #FFC100!important; font-weight: bold; margin-right: 0px;}
+.nav-pills .nav-link {color: #FFC100!important;}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {color: #2B281D!important;}
+.nav>li>a:focus, .nav>li>a:hover {background: #FFC100!important; color: #2B281D!important;}
+
+
+/* SIDE NAVIGATION */
+.carousel-indicators {
+  width: 400px!important;
+  right: 50px!important;
+  left: auto!important;
+  top: 30%!important;
+  text-align: right!important;
+  margin: 0!important;
+    z-index: 5!important;
+}
+
+.carousel-indicators li {
+background-color: rgba(255,255,255,.2)!important; color: #fff; padding: 10px 20px!important; margin: 10px 0!important; flex: auto!important; text-align: right!important; width: auto!important; height: auto!important; min-width: 250px; border-radius: 5px; border: none;
+}
+.carousel-indicators li:hover {background: #FFC100!important; padding: 10px 20px; margin: 10px 0;}
+.carousel-indicators li.active {
+  background: #FFC100!important; padding: 10px 20px; margin: 10px 0;
+}
+.carousel-indicators li.active a {color: #2B281D!important;}
+.carousel-indicators li:hover a {color: #2B281D!important;}
+.carousel-indicators li a {
+    font-family: 'Special Elite'!important; font-weight: bold!important;
+}
+
+.carousel-arrows {
+    padding: 10px 5px;
+    width: 250px;
+    float: right;
+}
+.carousel-arrows a {
+    font-size: 20px; 
+    font-weight: 900;
+    padding: 0 10px;
+}
+.carousel-arrows a span {
+    text-align: center;
+}
+
+.cr-chevron::before {
+	border-style: solid;
+	border-width: 0.25em 0.25em 0 0;
+	content: '';
+	display: inline-block;
+	height: 12px;
+	position: relative;
+	transform: rotate(-45deg);
+	vertical-align: middle;
+	width: 12px;
+}
+
+.cr-chevron:hover, .carousel-arrows a:hover {
+    color: #ffc100!important;
+}
+
+.cr-chevron.chevron-right:before {
+	left: 0;
+	transform: rotate(45deg);
+}
+
+.cr-chevron.chevron-left:before {
+	left: 0.25em;
+	transform: rotate(-135deg);
+}
+
+
+
+.cr-item {
+  height: 960px;
+}
+.cr-desktop {display: block;}
+.cr-mobile {display: none;}
+.landscape_notice {display:none;}
+
+.creditreport h1, .creditreport h2, .creditreport h3, .creditreport h4, .creditreport h5, .creditreport p, .creditreport a, creditreport a {color: #fff!important; font-family: 'Open Sans', sans-serif;}
+.cr-chevron:hover, #carousel-arrows a:hover {
+    color: #ffc100!important;
+}
+
+.pi-info {
+    padding: 0px 15px;
+    font-family: 'Special Elite' !important;
+    font-size: 14px;
+    margin: 10px 0 15px 0;
+    width: 80%;
+    border: 2px solid;
+/*    border-top: 2px solid;*/
+/*    border-bottom: 2px solid;*/
+}
+.pi-info p {
+    font-family: 'Special Elite'!important;
+}
+
+
+/*=============================*/
+/*=============================*/
+/*==== RESPONSIVE STYLES ======*/
+/*=============================*/
+/*=============================*/
+
+/*fixes width issue on slide 05 */
+@media (max-width: 1500px) { 
+    .slide_copy p {
+        font-size: 17px!important;
+    }
+}
+@media (max-width: 1460px) and (min-width: 1250px) { 
+.cr-item.slide_05a .col-md-7 { 
+  width: 70% !important;
+  }
+}
+
+@media (max-width:1250px) {
+    .slide_copy p {font-size: 16px!important;}
+    .slide_04a {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/account-info/bg_combo_smaller.jpg"); background-position: left bottom;}
+    .slide_04a-content .slide_copy {padding-left: 5%;}
+/*    .slide_03a-content .slide_copy p {font-size: 15px!important;}*/
+}
+
+/*fixed nav and body copy overlap issue*/
+@media (max-width: 1080px) and (min-width: 991px) { 
+  .cr-item.slide_04a.active .col-md-4 { 
+  width: 30% !important;
+  }
+}
+
+@media (max-width:991px) {
+.cr-desktop {display: none!important;}
+.cr-mobile {display: block!important;}
+.slide_copy {padding: 5%!important;}
+.slide_mobile {padding: 20px;}
+    /* Slide 01 */
+.slide_01a_mobile {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/set-up/bg.png"); background-size: cover; height: 100%;}
+.slide_01_title_mobile {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/title-slides/set-up/bg.png"); background-size: cover; height: 100%;}
+/* Slide 02 */
+.slide_02a_mobile {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/credit-report/bg.png"); background-size: cover;}
+.slide_02_title_mobile {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/title-slides/credit-report/bg.png"); background-size: cover; height: 100%;}
+.slide_02a-content {padding: 5% 0;}
+.slide_02a-content .slide_copy {padding-top: 0!important;}
+
+/* Slide 03 */
+.slide_03a_mobile {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/personal-info/bg.png"); background-size: cover;}
+.slide_03_title_mobile {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/title-slides/personal-info/bg.png"); background-size: cover; height: 100%;}
+.slide_03a-content .slide_copy {padding-top: 0!important;}
+/*.slide_03a-content .slide_copy p {font-size: 17px;}*/
+
+/* Slide 04 */
+.slide_04a_mobile {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/account-info/bg.png"); background-size: cover;}
+.slide_04_title_mobile {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/title-slides/account-info/bg.png"); background-size: cover; height: 100%;}
+.slide_04a-content { padding-top: 5%; }
+.slide_04a-content .slide_copy {padding-top: 0!important;}
+
+/* Slide 05 */
+.slide_05a_mobile {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/hard-soft/bg.png"); background-size: cover;}
+.slide_05a_mobile img {width: 75%!important;}
+.slide_05_title_mobile {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/title-slides/hard-soft/bg.png"); background-size: cover; height: 100%;}
+.slide_05a-content {padding-top: 5%;}
+.slide_05a-content .slide_copy {padding-top: 0!important;}
+
+/* Slide 06 */
+.slide_06a_mobile {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/solving-crime/bg.png"); background-size: cover;}
+.slide_06_title_mobile {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/title-slides/solving-crime/bg.png"); background-size: cover; height: 100%;}
+.slide_06a-content .slide_copy {padding-top: 0!important;}
+    
+/* Slide 07 */
+.slide_07_title_mobile {background: url("http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/title-slides/the-end/bg.png"); background-size: cover; background-position: center; min-height: 450px; height: 100%;}
+.slide_07a-content .slide_copy {padding-top: 0!important;}
+    
+.title_slide_mobile {height:400px;}
+    
+
+.mobile_title {padding: 5% 2%;}
+/* FOOTER FIX */
+    footer .note {float: none;}
+    .subpage footer aside {margin-left: 0;}
+    footer .container {width: 100%;}
+    
+    .landscape_notice {display:none!important;}
+}
+
+    
+    
+@media screen and (max-width: 480px) {
+    .cr-mobile {display: block;}
+    .landscape_notice {display:block!important; background: rgba(0, 0, 0, 0.90)!important; height: 120%!important; width: 100%!important; padding: 35vh 20px!important; margin: 0!important; position: fixed!important; top: 0!important; left: 0!important; z-index: 3000!important;}
+    .landscape_notice h2 {color: #fff; text-align: center;}
+}
+
+
+/*============*/
+/*============*/
+/* ANIMATIONS */
+/*============*/
+/*============*/
+
+.slide_title {
+    animation: sweep-in-right .5s, fade-in 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+    margin-left: 400%;
+}
+/*
+.slide_title_fade {
+    animation: fade-in 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: .4s;
+    animation-fill-mode: forwards;
+}
+*/
+.sweep-in-2 {
+    animation: sweep-in-right 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+}
+.sweep-in-3 {
+    animation: sweep-in-right 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+}
+.fade-in {
+    animation: fade-in 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: .4s;
+    animation-fill-mode: forwards;
+}
+
+#impt-bullet-1 {
+    animation: color-change .7s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: .75s;
+    animation-fill-mode: forwards;
+}
+#impt-bullet-2 {
+    animation: color-change .7s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+#impt-bullet-3 {
+    animation: color-change .7s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-delay: 2.25s;
+    animation-fill-mode: forwards;
+}
+.title-fade-in {
+    animation: title-fade-in 1s;
+    animation-timing-function:ease;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.title-slide-overlay {
+    position: absolute; 
+    width: 100%!important; 
+    height: 100%;
+    top: 0;
+}
+.slide_01_overlay {
+    background: url('http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/title-slides/set-up/bg.png'); 
+    background-position: center; 
+    background-size: cover;
+}
+.slide_02_overlay {
+    background: url('http://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/title-slides/credit-report/bg.png'); 
+    background-position: center; 
+    background-size: cover;
+}
+
+@keyframes sweep-in-right {
+    from {margin-left: 150%;}
+    to {margin-left: 0;}
+}
+@keyframes color-change {
+    from {color:#fff;}
+    to {color:#FFC100;}
+}
+@keyframes fade-in {
+    from {opacity:0;}
+    to {opacity:1.0;}
+}
+@keyframes title-fade-in {
+    from {width: 100%;}
+    to {width:0;}
+}
+
+/*=======*/
+/*=======*/
+/* FIXES */
+/*=======*/
+/*=======*/
+
+/* Dev Theme */
+.o-container.c-customsection__container {
+    padding: 0;
+}
+
+/* Cardiff */
+#subContent {
+    display: none;
+}
+#content {
+    margin: 0; 
+    padding: 0;
+}
+.container {
+    width: 100%;
+} 
+footer .container {
+    width: 90%;
+} 
+.body-container {
+  overflow: hidden;
+}
+
+/* Morro nav fix */
+@media (max-width: 2000px)
+.navbar-toggle {
+    display: none!important;
+}
+@media (max-width: 991px)
+.navbar-toggle {
+    display: inline-block!important;
+}
+
+/* Venice Fix */
+@media (max-width: 1500px) { 
+.venice .cr-item.slide_04a.active .col-md-4 {
+    display: block;
+    width: 60% !important;
+}
+.venice .col-md-4.slide_copy p {
+    text-shadow: 0px 0px 20px #000;
+}
+.venice .slide_04a .col-md-6 {
+    display: block;
+    width: 100%;
+}
+.venice .item.cr-item.slide_04a.active {
+    background: url(https://fmg-websites-custom.s3.amazonaws.com/interactives/credit_report/images/account-info/bg_combo_smaller.jpg);
+    background-position: left top;
+}
+}
+.pi-info strong {
+   color: #fff!important;
+}

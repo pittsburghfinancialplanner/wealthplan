@@ -1,0 +1,888 @@
+.body-container .container {
+  background-color: initial !important;
+}
+.preret-checklist .pre-check-list div:nth-child(1)  p {
+  color: #777;
+}
+.preret-checklist p {
+  color: #4a4a4a;
+}
+p.text-center {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 21px;
+  position: relative;
+}
+
+.progress { 
+  max-width: 800px;
+  margin: auto;
+  margin-top: 20px;
+}
+.progress-bar {
+  background: #4ec3cb;
+}
+
+.twitter_img,
+.facebook_img,
+.linkedin_img {
+  max-width: 50px !important;
+  width: 50px;
+  padding: 5px !important;
+}
+
+.preret-checklist .twitter,
+.preret-checklist .facebook,
+.preret-checklist .linkedin {
+  max-width: 50px !important;
+  width: 10pxd;
+  padding: 5px !important;
+}
+
+#share-buttons {
+  position: relative;
+  padding-bottom: 10px !important;
+}
+div#share-buttons a:hover {
+  opacity: 0.7;
+  text-decoration: none !important;
+}
+
+#content .col-md-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.section.herosection {
+  border: 17px solid #fff;
+  background-image: -webkit-linear-gradient(123deg, #7de3db, #abeddb);
+  background-image: linear-gradient(327deg, #7de3db, #abeddb);
+  padding: 50px;
+}
+
+.section.notquite {
+  border: 0px;
+  background-image: -webkit-linear-gradient(123deg, #7de3db, #abeddb);
+  background-image: linear-gradient(327deg, #7de3db, #abeddb);
+  padding: 50px;
+}
+
+.section.directions {
+  border: 0px;
+  padding: 50px;
+}
+
+.section.clickthru1 {
+  border: 0px;
+  padding: 5px;
+  background-color: white;
+}
+
+.section.clickthru {
+  border: 0px;
+  background-color: #FFFFFF;
+  padding: 25px;
+}
+
+.section.disclaimer {
+  border: 0px;
+  padding: 50px;
+  background-color: #1e1e1e;
+}
+
+.section.sharethischecklist {
+  border: 0px;
+  padding: 50px;
+  background-color: #4a4a4a;
+}
+
+.section.sharethischecklist h1 {
+  margin-bottom: 30px !important;
+}
+
+.section.progress-sticky {
+  border: 0px;
+  padding: 34px;
+  background-color: #4a4a4a;
+  -webkit-box-shadow: 0px 6px 30px -1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 6px 30px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 6px 30px -1px rgba(0, 0, 0, 0.25);
+}
+
+#prog-stick {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  z-index: 2 !important;
+  top: 0;
+}
+
+#share-buttons {
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.instructions {
+  padding: 75px;
+  font-weight: 700;
+}
+
+.chkiteam {
+  padding: 0px 0px 60px 0px;
+}
+
+.preret-checklist .container {
+  padding: 0px !important;
+}
+
+.section.herosection .container {
+  padding: 0px !important;
+}
+
+.preret-checklist .heading-2 {
+  margin-top: 0px;
+  color: #3b3b3b;
+}
+
+.preret-checklist h1>span {
+  background-color: white;
+  line-height: 1;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  text-transform: capitalize;
+  color: #4a4a4a;
+}
+
+.section.notquite h2>span {
+  background-color: #4a4a4a;
+  line-height: 1;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.section.notquite p {
+  color: #333;
+}
+
+
+.section.directions h3>span {
+  /*background-color: white;*/
+  line-height: 1.5;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: #333333;
+}
+
+.section.sharethischecklist h1>span {
+  background-color: white;
+  line-height: 1;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-transform: capitalize;
+  color: #4a4a4a;
+  font-size: 24px;
+  letter-spacing: 3.5px;
+}
+
+.preret-checklist h1 {
+  font-family: Ubuntu, Helvetica, sans-serif !important;
+  font-size: 75px !important;
+  font-weight: 700;
+} 
+@media (max-width: 600px) { /* 8/2/19 - added to fix responsinveness  */
+  .preret-checklist h1 {
+    font-size: 40px !important;
+    line-height: 1.2 !important;
+  } 
+}
+
+.preret-checklist p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-family: Ubuntu, Helvetica, sans-serif !important;
+  font-size: 18px !important;
+}
+
+.chkiteam p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-family: Ubuntu, Helvetica, sans-serif !important;
+  font-size: 21px !important;
+  top: 50px;
+  position: relative;
+  left: 74px;
+}
+
+
+.preret-checklist .subhead {
+  font-family: Ubuntu, Helvetica, sans-serif !important;
+  margin-top: 0px;
+  margin-bottom: 48px;
+  color: #fff !important;
+  font-size: 24px !important;
+  letter-spacing: 3.5px !important;
+  padding: 2px;
+}
+
+.section.notquite .subhead {
+  font-family: Ubuntu, Helvetica, sans-serif !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #fff !important;
+  font-size: 24px !important;
+  letter-spacing: 3.5px;
+  padding: 27px;
+}
+
+.section.directions .subhead {
+  font-family: Ubuntu, Helvetica, sans-serif !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #333333 !important;
+  font-size: 24px !important;
+  letter-spacing: 0px !important;
+  padding: 2px;
+}
+
+.section.disclaimer p {
+  font-family: Ubuntu, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #fff !important;
+  font-size: 18px;
+}
+
+.section.progress-sticky h3 {
+  font-family: Ubuntu, Helvetica, sans-serif !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #fff !important;
+  font-size: 36px !important;
+  font-weight: 400;
+  padding-left: 18px;
+  text-align: center;
+}
+@media (max-width: 600px) { /* 8/2/19 - added to fix responsinveness  */
+  .section.progress-sticky h3 {
+    font-size: 24px !important;
+  }
+}
+
+.preret-checklist h2>span {
+  background-color: #4a4a4a;
+  line-height: 2;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+input[type="checkbox"]+label {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #7a7a7a;
+  border-radius: 25%;
+  top: 55px;
+  left: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: all ease-out 200ms;
+  text-indent: 67px;
+  font: normal normal 47px/45px "Helvetica";
+  font-weight: 700;
+  white-space: nowrap;
+  color: #555;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+input[type="checkbox"]:checked+label .check-title,
+input[type="checkbox"]:checked+label .check-title-mobile { 
+  text-decoration: line-through !important;
+}
+
+input[type="checkbox"]+label:after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 12px;
+  border-bottom: 4px solid #ffffff;
+  border-left: 4px solid #ffffff;
+  top: 42%;
+  left: 49%;
+  -webkit-transform-origin: bottom left;
+  transform-origin: bottom left;
+  -webkit-transform: rotate(-55deg);
+  transform: rotate(-55deg);
+  opacity: 0;
+  transition: all ease-out 200ms;
+}
+
+span.check-completed {
+  display: none;
+  font-size: 20px;
+  color: #4ec3cb;
+  text-decoration: none !important;
+  border: none !important;
+}
+input[type="checkbox"]:checked+label .check-completed { 
+  display: inline;
+}
+
+input[type="checkbox"]:checked+label {
+  border: 4px solid #96dce1;
+  background-color: #4ec3cb;
+  color: #ababab;
+  box-shadow: 0px 0px 35px -5px #4ec3cb;
+}
+
+input[type="checkbox"]:checked+label:after {
+  opacity: 1;
+  width: 22px;
+  transition: all ease-out 200ms;
+}
+
+input#chk1,
+input#chk2,
+input#chk3,
+input#chk4,
+input#chk5,
+input#chk6,
+input#chk7,
+input#chk8,
+input#chk9,
+input#chk10 {
+  display: none;
+}
+
+.list-group-item {
+  border: 0px !important;
+}
+
+.section.herosection {
+  border: 0px !important;
+  padding: 60px 60px 60px 60px;
+}
+
+.progress-pie-chart {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #E5E5E5;
+  position: relative;
+}
+
+.progress-pie-chart.gt-50 {
+  background-color: #55f5ff;
+}
+
+.ppc-progress {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  width: 200px;
+  height: 200px;
+  clip: rect(0, 200px, 200px, 100px);
+}
+
+.ppc-progress .ppc-progress-fill {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  width: 200px;
+  height: 200px;
+  clip: rect(0, 100px, 200px, 0);
+  background: #55f5ff;
+  transform: rotate(60deg);
+}
+
+.gt-50 .ppc-progress {
+  clip: rect(0, 100px, 200px, 0);
+}
+
+.gt-50 .ppc-progress .ppc-progress-fill {
+  clip: rect(0, 200px, 200px, 100px);
+  background: #E5E5E5;
+}
+
+.ppc-percents {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 175.9130434783px/2);
+  top: calc(50% - 175.9130434783px/2);
+  width: 175.9130434783px;
+  height: 175.9130434783px;
+  background: #4a4a4a;
+  text-align: center;
+  display: table;
+}
+
+.ppc-percents span {
+  display: block;
+  font-size: 3.6em;
+  font-weight: bold;
+  color: #c9c9c9;
+}
+
+.pcc-percents-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.progressdiv {
+  position: relative;
+}
+
+.progressdiv:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 35px;
+  transform: translate(-50%, -50%);
+  content: attr(data-percent) " %";
+}
+
+/* Buttons */
+
+.social-btns {
+  text-align: center;
+}
+
+.social-btns li {
+  margin: 8px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (min-width: 768px) {
+  .social-btns li {
+    margin: 15px;
+  }
+}
+
+/* Dissolve Button */
+
+.social-btn-dissolve {
+  max-width: 100px;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  color: #fff;
+  line-height: 42px;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+}
+
+.social-btn-dissolve:hover {
+  color: #fff;
+}
+
+.social-btn-dissolve:hover:before {
+  opacity: 0;
+  -webkit-transform: scale(1.35);
+  transform: scale(1.35);
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.social-btn-dissolve:before {
+  background: inherit;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.75;
+  border-radius: 50%;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.social-btn-dissolve.twitter {
+  background: #4cc4f2;
+}
+
+.social-btn-dissolve.facebook {
+  background: #3b5998;
+}
+
+.social-btn-dissolve.google {
+  background: #dd4b39;
+}
+
+.check-title-mobile {
+  display: none;
+}
+
+/* Fixing checkbox title alignment */
+label {
+  padding-top: 18px;
+}
+span.check-title, span.check-title-mobile, span.check-completed {
+  vertical-align: top;
+  line-height: 0;
+}
+@media (min-width: 991px)  { 
+  .section.directions {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 991px) {
+  .herosection h1 {
+    font-size: 35px;
+  }
+  .chkiteam p {
+    max-width: 80%;
+  }
+  .check-title {
+    display: none;
+  }
+  .check-title-mobile {
+    display: inline;
+    font-size: 22px;
+  }
+  .facebook img {
+    width: 60px;
+    height: auto;
+  }
+  .google img {
+    width: 60px;
+    height: auto;
+  }
+  .twitter img {
+    width: 60px;
+    height: auto;
+  }
+  .section.herosection {
+    padding: 36px 10px 36px 10px !important;
+  }
+  .preret-checklist h2>span {
+    line-height: 0;
+  }
+  /* moves down sticky under topbar that appears at 991px */
+  .section.progress-sticky { 
+    padding-top: 75px;
+  }
+  /* reducing spacing */
+  .chkiteam p { top: 25px; }
+  .chkiteam {
+    padding: 0 0 25px 0;
+  }
+}
+@media (max-width: 500px) { 
+  input[type="checkbox"]:checked+label .check-completed {
+    display: block;
+  }
+  .chkiteam p {
+    top: 50px;
+  }
+  .section.progress-sticky h3 {
+    font-size: 20px;
+  }
+  .herosection h1 {
+    line-height: 1.7;
+  }
+}
+@media (max-width: 350px) {  /* 8/2/19 - added to fix responsinveness  */
+  .check-title-mobile {
+    display: inline;
+    font-size: 22px;
+  }
+}
+
+
+
+/* ========================================== */
+
+/* =========== Countering FMG CMS =========== */
+
+/* ========================================== */
+/* Developers theme 100% width */
+.o-container.c-customsection__container {
+  width: 100vw;
+}
+.c-rich-text__section.welcome {
+  margin: 0 !important;
+  float: none !important;
+  width: 100vw;
+}
+.o-grid__collapse.c-grid__collapse--FullWidth {
+  margin: 0 !important;
+  width: 100vw;
+}
+
+.interactive-temp section#scrollOn_btn {
+  text-align: center !important;
+}
+
+/* Make sure all themes have white background where content is, so nothing looks werid or cut off */
+
+/*body,
+#content {
+  background-color: #FFF !important;
+  }*/
+
+  .subpage article,
+  .subpage #content article {
+    background: none !important;
+  }
+
+  /* No widgets */
+
+  .subpage #content aside {
+    display: none;
+  }
+
+  .section_boxes .section {
+    margin: 0;
+  }
+
+  /* Full width content */
+
+  .subpage article,
+  .subpage #content article {
+    /* Moonlight */
+    width: 100%;
+    padding: 0;
+    /* Solona */
+  }
+
+  article .section_boxes #section1 .col-xs-12.col-sm-12.col-md-12 {
+    /* North Park */
+    padding: 0;
+  }
+
+  #content section.container {
+    /* Cardiff */
+    width: 100%;
+    padding: 0;
+  }
+
+  .body-container .container {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  @media (min-width: 1200px) {
+    /* Moonlight & Northpark*/
+    .body-container .container {
+      width: 100%;
+      padding: 0 !important;
+    }
+  }
+
+  /* make width 100% of screen */
+
+  .subpage #content section .container,
+  .subpage #content article .container {
+    padding: 0px !important;
+    margin: 0 !important;
+    width: 100%;
+  }
+
+  .subpage #content article .container .c-custom-pages-heading {
+    padding: 10px 15px;
+  }
+
+  /* make title of article have padding even though content is full width */
+
+  article>h1:first-child {
+    margin-left: 36px;
+  }
+
+  /* ========================================== */
+
+  /* =========== Countering FMG CMS =========== */
+
+  /* ========================================== */
+
+  /* Werid padding */
+
+  .section_boxes .section {
+    margin-bottom: 0 !important;
+  }
+
+  /* scroll btn */
+
+  .interactive-temp section#scrollOn_btn {
+    text-align: center !important;
+  }
+
+  /* Make sure all themes have white background where content is, so nothing looks werid or cut off */
+
+/*body,
+#content {
+  background-color: #FFF !important;
+  }*/
+
+  .subpage article,
+  .subpage #content article {
+    background: none !important;
+  }
+
+  /* No widgets */
+
+  .subpage #content aside {
+    display: none;
+  }
+
+  .section_boxes .section {
+    margin: 0;
+  }
+
+  /* Full width content */
+
+  .subpage article,
+  .subpage #content article {
+    /* Moonlight */
+    width: 100%;
+    padding: 0;
+    /* Solona */
+  }
+
+  article .section_boxes #section1 .col-xs-12.col-sm-12.col-md-12 {
+    /* North Park */
+    padding: 0;
+  }
+
+  #content section.container {
+    /* Cardiff */
+    width: 100%;
+    padding: 0 !important;
+  }
+
+  .body-container .container {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  @media (min-width: 1200px) {
+    /* Moonlight & Northpark*/
+    .body-container .container {
+      width: 100%;
+      padding: 0 !important;
+    }
+  }
+
+  /* make width 100% of screen */
+
+  .subpage #content section .container,
+  .subpage #content article .container {
+    padding: 0px !important;
+    margin: 0 !important;
+    width: 100%;
+  }
+
+  .section_boxes .row {
+    margin: 0 !important;
+  }
+
+  .subpage #content article .container .c-custom-pages-heading {
+    padding: 10px 15px;
+  }
+
+  /* make title of article have padding even though content is full width */
+
+  article>h1:first-child {
+    margin-left: 36px;
+  }
+
+  /* No title */
+
+  h1.c-custom-pages-heading {
+    display: none;
+  }
+
+  /* Getting rid of extra p margin */
+
+  p {
+    margin-bottom: 0 !important;
+  }
+
+  /* Gets rid of neg margin that makes part of page dissapear on the edges */
+  .preret-checklist .row {
+    margin: 0;
+  }
+
+  /* Extra padding on Cardiff */
+  /* BT: The sticky progress bar has padding around it as it floats. */
+  @media only screen and (max-width: 480px) {
+    #content .container > * {
+      padding: 0 !important;
+    }
+  }
+
+
+
+
+  /* Problem with Chelan */
+
+  @media (min-width: 992px) { 
+    .chelan .navbar-header button.navbar-toggle {
+      display: none !important;
+    }
+  }
+  @media (max-width: 991px) { 
+    .chelan .navbar-header button.navbar-toggle {
+      width: auto !important;
+      padding: 20px !important;
+      display: block !important;
+      opacity: 1 !important;
+      height: 60px !important;
+    }
+  }
+
+  /* Fix for Silverlake */
+  #content .preret-checklist .container {
+    background: none !important;
+  }
+  /* Fix for  Santa Barbara*/
+  .preret-checklist h1:after {
+    display: none !important;
+  }
+  section#content {
+    padding: 0 !important;
+  }
+
+  /* CUSTOMERS W/OUT WEBSITES */
+
+  .c-site-core {
+    max-width: 100%;
+  }
+
+  .c-site-core .container {
+    width: 100%;
+  }
+
+  .c-site-core #articleContent {
+    padding: 0;
+  }
+  .herosection h1 {
+    text-align: left;
+  }
+
+  /* fix responsinve 8/2/19 */
+  @media (max-width: 450px) { 
+    .col-xs-offset-1 {
+      margin-left: 10px;
+    }
+  }
